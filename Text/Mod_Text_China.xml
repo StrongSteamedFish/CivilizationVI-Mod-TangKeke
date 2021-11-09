@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Mod_Text_China -->
+<!-- Author: zheng -->
+<!-- DateCreated: 11/9/2021 9:22:50 AM -->
+<GameData>
+	<LocalizedText>
+		<!--MOD文明介绍，打包后添加到.modinfo文件中-->
+		<Row Tag="LOC_TANGKEKE_MOD_NAME" Language="zh_Hans_CN">
+			<Text>[COLOR:ResCultureLabelCS]LoveLive!Superstar!![ENDCOLOR]————[COLOR:199,188,168,255]唐可可[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_TANGKEKE_MOD_TEASER" Language="zh_Hans_CN">
+			<Text>本MOD添加了：[NEWLINE]一个新的领袖：唐可可。[NEWLINE]一个新的文明：Liella!</Text>
+		</Row>
+		<Row Tag="LOC_TANGKEKE_MOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[COLOR:199,188,168,255]唐可可[ENDCOLOR]：上海卷王，中国姛（划掉）。因为憧憬学园偶像，想要成为学院偶像而从中国上海来到日本。[NEWLINE][COLOR:ResCultureLabelCS]Liella![ENDCOLOR]：由结丘女子高等学校的五位学生组成的学园偶像团体。其团名Liella!由法语的lier（连结）与来自意大利语的音乐术语brillante（内心闪耀的）组合而成，寓意“现在还是很小的星星，但如果将内心的闪耀相连，就一定可以成为Superstar”。（该段取自萌娘百科Liella!条目）</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
