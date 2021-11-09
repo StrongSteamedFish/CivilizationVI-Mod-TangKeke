@@ -18,7 +18,7 @@
     <AssemblyName>TangKeke</AssemblyName>
     <RootNamespace>TangKeke</RootNamespace>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateText id="Mod_Text"><File>Text/Mod_Text_China.xml</File></UpdateText><UpdateDatabase id="Mod_Config"><File>Mod_Config.xml</File></UpdateDatabase><UpdateColors id="Mod_Colors"><File>Mod_Colors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateText id="ModText"><File>Text/Mod_Text_China.xml</File></UpdateText><UpdateDatabase id="Mod_GameData"><Properties><LoadOrder>99999</LoadOrder></Properties><File>Mod_Leaders.xml</File><File>Mod_Civilizations.xml</File><File>Mod_Districts.sql</File><File>Mod_Units.sql</File></UpdateDatabase><UpdateColors id="Mod_Colors"><File>Mod_Colors.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateText id="ModText"><File>Text/Mod_Text_China.xml</File></UpdateText><UpdateDatabase id="Mod_GameData"><Properties><LoadOrder>99999</LoadOrder></Properties><File>Mod_Leaders.xml</File><File>Mod_Civilizations.xml</File><File>Mod_Districts.sql</File><File>Mod_Units.sql</File><File>Mod_Civilization_Abilities.sql</File><File>Mod_Leader_Abilities.sql</File></UpdateDatabase><UpdateColors id="Mod_Colors"><File>Mod_Colors.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -33,6 +33,9 @@
     <Content Include="Mod_Civilizations.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Mod_Civilization_Abilities.sql">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Mod_Colors.xml">
       <SubType>Content</SubType>
     </Content>
@@ -43,6 +46,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Mod_Leaders.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Mod_Leader_Abilities.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Mod_Units.sql">
