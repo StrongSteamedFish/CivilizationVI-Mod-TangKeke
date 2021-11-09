@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Mod_Config -->
+<!-- Author: zheng -->
+<!-- DateCreated: 11/9/2021 10:49:20 AM -->
+<GameData>
+	<Players>
+		<Row>
+			<CivilizationType>CIVILIZATION_LIELLA</CivilizationType>
+			<CivilizationName>LOC_CIVILIZATION_LIELLA_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_LIELLA</CivilizationIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_ABILITY_LIELLA_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_ABILITY_LIELLA_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_TRAIT_CIVILIZATION_ABILITY_LIELLA</CivilizationAbilityIcon>
+
+			<LeaderType>LEADER_TANG_KEKE</LeaderType>
+			<LeaderName>LOC_LEADER_TANG_KEKE_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_TANG_KEKE</LeaderIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_ABILITY_TANG_KEKE_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_ABILITY_TANG_KEKE_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_TRAIT_LEADER_ABILITY_TANG_KEKE</LeaderAbilityIcon>
+
+			<Portrait>IMG_LEADER_TANG_KEKE_SELECTION_FOREGROUND.dds</Portrait>
+			<PortraitBackground>IMG_LEADER_TANG_KEKE_SELECTION_BACKGROUND.dds</PortraitBackground>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+
+			<CivilizationType>CIVILIZATION_LIELLA</CivilizationType>
+			<CivilizationName>LOC_CIVILIZATION_LIELLA_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_LIELLA</CivilizationIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_ABILITY_LIELLA_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_ABILITY_LIELLA_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_TRAIT_CIVILIZATION_ABILITY_LIELLA</CivilizationAbilityIcon>
+
+			<LeaderType>LEADER_TANG_KEKE</LeaderType>
+			<LeaderName>LOC_LEADER_TANG_KEKE_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_TANG_KEKE</LeaderIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_ABILITY_TANG_KEKE_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_ABILITY_TANG_KEKE_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_TRAIT_LEADER_ABILITY_TANG_KEKE</LeaderAbilityIcon>
+
+			<Portrait>IMG_LEADER_TANG_KEKE_SELECTION_FOREGROUND.dds</Portrait>
+			<PortraitBackground>IMG_LEADER_TANG_KEKE_SELECTION_BACKGROUND.dds</PortraitBackground>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			
+			<CivilizationType>CIVILIZATION_LIELLA</CivilizationType>
+			<CivilizationName>LOC_CIVILIZATION_LIELLA_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_LIELLA</CivilizationIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_ABILITY_LIELLA_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_ABILITY_LIELLA_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_TRAIT_CIVILIZATION_ABILITY_LIELLA</CivilizationAbilityIcon>
+
+			<LeaderType>LEADER_TANG_KEKE</LeaderType>
+			<LeaderName>LOC_LEADER_TANG_KEKE_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_TANG_KEKE</LeaderIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_ABILITY_TANG_KEKE_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_ABILITY_TANG_KEKE_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_TRAIT_LEADER_ABILITY_TANG_KEKE</LeaderAbilityIcon>
+
+			<Portrait>IMG_LEADER_TANG_KEKE_SELECTION_FOREGROUND.dds</Portrait>
+			<PortraitBackground>IMG_LEADER_TANG_KEKE_SELECTION_BACKGROUND.dds</PortraitBackground>
+		</Row>
+	</Players>
+
+	<PlayerItems>
+		<Row>
+			<CivilizationType>CIVILIZATION_LIELLA</CivilizationType>
+			<LeaderType>LEADER_TANG_KEKE</LeaderType>
+			<Type>DISTRICT_SCHOOL_IDOL_PROJECT</Type>
+			<Icon>ICON_DISTRICT_SCHOOL_IDOL_PROJECT</Icon>
+			<Name>LOC_DISTRICT_SCHOOL_IDOL_PROJECT_NAME</Name>
+			<Description>LOC_DISTRICT_SCHOOL_IDOL_PROJECT_DESCRIPTION</Description>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+
+			<CivilizationType>CIVILIZATION_LIELLA</CivilizationType>
+			<LeaderType>LEADER_TANG_KEKE</LeaderType>
+			<Type>DISTRICT_SCHOOL_IDOL_PROJECT</Type>
+			<Icon>ICON_DISTRICT_SCHOOL_IDOL_PROJECT</Icon>
+			<Name>LOC_DISTRICT_SCHOOL_IDOL_PROJECT_NAME</Name>
+			<Description>LOC_DISTRICT_SCHOOL_IDOL_PROJECT_DESCRIPTION</Description>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			
+			<CivilizationType>CIVILIZATION_LIELLA</CivilizationType>
+			<LeaderType>LEADER_TANG_KEKE</LeaderType>
+			<Type>DISTRICT_SCHOOL_IDOL_PROJECT</Type>
+			<Icon>ICON_DISTRICT_SCHOOL_IDOL_PROJECT</Icon>
+			<Name>LOC_DISTRICT_SCHOOL_IDOL_PROJECT_NAME</Name>
+			<Description>LOC_DISTRICT_SCHOOL_IDOL_PROJECT_DESCRIPTION</Description>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LIELLA</CivilizationType>
+			<LeaderType>LEADER_TANG_KEKE</LeaderType>
+			<Type>UNIT_SCHOOL_IDOL</Type>
+			<Icon>ICON_UNIT_SCHOOL_IDOL</Icon>
+			<Name>LOC_UNIT_SCHOOL_IDOL_NAME</Name>
+			<Description>LOC_UNIT_SCHOOL_IDOL_DESCRIPTION</Description>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+
+			<CivilizationType>CIVILIZATION_LIELLA</CivilizationType>
+			<LeaderType>LEADER_TANG_KEKE</LeaderType>
+			<Type>UNIT_SCHOOL_IDOL</Type>
+			<Icon>ICON_UNIT_SCHOOL_IDOL</Icon>
+			<Name>LOC_UNIT_SCHOOL_IDOL_NAME</Name>
+			<Description>LOC_UNIT_SCHOOL_IDOL_DESCRIPTION</Description>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+
+			<CivilizationType>CIVILIZATION_LIELLA</CivilizationType>
+			<LeaderType>LEADER_TANG_KEKE</LeaderType>
+			<Type>UNIT_SCHOOL_IDOL</Type>
+			<Icon>ICON_UNIT_SCHOOL_IDOL</Icon>
+			<Name>LOC_UNIT_SCHOOL_IDOL_NAME</Name>
+			<Description>LOC_UNIT_SCHOOL_IDOL_DESCRIPTION</Description>
+			<SortIndex>20</SortIndex>
+		</Row>
+	</PlayerItems>
+</GameData>

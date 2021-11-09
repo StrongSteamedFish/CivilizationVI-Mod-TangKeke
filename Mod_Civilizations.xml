@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Mod_Civilizations -->
+<!-- Author: zheng -->
+<!-- DateCreated: 11/9/2021 10:33:12 AM -->
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_LIELLA" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_CIVILIZATION_ABILITY_LIELLA" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_LIELLA</CivilizationType>
+			<Name>LOC_CIVILIZATION_LIELLA_NAME</Name>
+			<Description>LOC_CIVILIZATION_LIELLA_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_LIELLA_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>10</RandomCityNameDepth>
+			<Ethnicity>ETHNICITY_ASIAN</Ethnicity>
+		</Row>
+	</Civilizations>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_LIELLA" LeaderType="LEADER_TANG_KEKE" CapitalName="LOC_YUIGAOKA_NAME"/>
+	</CivilizationLeaders>
+
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_ABILITY_LIELLA" Name="LOC_TRAIT_CIVILIZATION_ABILITY_LIELLA_NAME" Description="LOC_TRAIT_CIVILIZATION_ABILITY_LIELLA_DESCRIPTION"/>
+	</Traits>
+
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_LIELLA" TraitType="TRAIT_CIVILIZATION_ABILITY_LIELLA"/>
+	</CivilizationTraits>
+	
+	<!--城市名&市民名-->
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_YUIGAOKA_NAME"/>
+	</CityNames>
+
+	<!--
+	<CivilizationCitizenNames>
+		<Row CivilizationType="" Female="" Modern="" CitizenName=""/>
+	</CivilizationCitizenNames>
+	-->
+	
+	<!--起始位置关联（暂时没有）-->
+</GameData>

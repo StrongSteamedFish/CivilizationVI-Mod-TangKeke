@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Mod_Colors -->
+<!-- Author: zheng -->
+<!-- DateCreated: 11/9/2021 10:55:04 AM -->
+<GameData>
+	<Colors>
+		<Row Type="COLOR_LEADER_TANG_KEKE_PRIMARY" Color="199,188,168,255"/>
+		<Row Type="COLOR_LEADER_TANG_KEKE_SECONDARY" Color="255,255,255,255"/>
+
+		<Row Type="COLOR_LEADER_TANG_KEKE_ALT1PRIMARY" Color="211,182,214,255"/>
+		<Row Type="COLOR_LEADER_TANG_KEKE_ALT1SECONDARY" Color="255,255,255,255"/>
+
+		<Row Type="COLOR_LEADER_TANG_KEKE_ALT2PRIMARY" Color="50,99,139,255"/>
+		<Row Type="COLOR_LEADER_TANG_KEKE_ALT2SECONDARY" Color="236,238,236,255"/>
+
+		<Row Type="COLOR_LEADER_TANG_KEKE_ALT3PRIMARY" Color="184,61,67,255"/>
+		<Row Type="COLOR_LEADER_TANG_KEKE_ALT3SECONDARY" Color="238,239,242,255"/>
+	</Colors>
+
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_TANG_KEKE</Type>
+			<Usage>Unique</Usage>
+
+			<PrimaryColor>COLOR_LEADER_TANG_KEKE_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_LEADER_TANG_KEKE_SECONDARY</SecondaryColor>
+
+			<Alt1PrimaryColor>COLOR_LEADER_TANG_KEKE_ALT1PRIMARY</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_LEADER_TANG_KEKE_ALT1SECONDARY</Alt1SecondaryColor>
+
+			<Alt2PrimaryColor>COLOR_LEADER_TANG_KEKE_ALT2PRIMARY</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_LEADER_TANG_KEKE_ALT2SECONDARY</Alt2SecondaryColor>
+
+			<Alt3PrimaryColor>COLOR_LEADER_TANG_KEKE_ALT3PRIMARY</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_LEADER_TANG_KEKE_ALT3SECONDARY</Alt3SecondaryColor>
+		</Row>
+	</PlayerColors>
+</GameData>

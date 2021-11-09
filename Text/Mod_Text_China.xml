@@ -4,15 +4,85 @@
 <!-- DateCreated: 11/9/2021 9:22:50 AM -->
 <GameData>
 	<LocalizedText>
-		<!--MOD文明介绍，打包后添加到.modinfo文件中-->
+		<!--城市名称&市民名称-->
+		<Row Tag="LOC_YUIGAOKA_NAME" Language="zh_Hans_CN">
+			<Text>结丘女子高等学校</Text>
+		</Row>
+		<!--文明&文明能力-->
+		<Row Tag="LOC_CIVILIZATION_LIELLA_NAME" Language="zh_Hans_CN">
+			<Text>Liella!</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LIELLA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>Liella!</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LIELLA_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>Liella!的</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ABILITY_LIELLA_NAME" Language="zh_Hans_CN">
+			<Text>Liella!</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ABILITY_LIELLA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每当解锁新时代第一项[ICON_CultureLarge]市政时，自动获得一个[ICON_GreatWork_Music]音乐巨作，拥有[ICON_GreatWork_Music]音乐巨作的城市对附近城市的忠诚度压力+100%。拥有摇滚乐队的强力替代：学园偶像，可更早解锁，拥有更低的价格，但是产出的[ICON_Tourism]旅游业绩低于摇滚乐队。</Text>
+		</Row>
+		<!--领袖&领袖能力-->
+		<Row Tag="LOC_LEADER_TANG_KEKE_NAME" Language="zh_Hans_CN">
+			<Text>[COLOR:199,188,168,255]唐可可[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ABILITY_TANG_KEKE_NAME" Language="zh_Hans_CN">
+			<Text>上海卷王</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ABILITY_TANG_KEKE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>无法获得[ICON_TechBoosted]尤里卡。每座城市获得等同于其[ICON_Culture]文化值产出30%的额外[ICON_Science]科技值产出，建造School Idol Project和工业区时+100%[ICON_Production]生产力。</Text>
+		</Row>
+		<!--文明特色区域-->
+		<Row Tag="LOC_TRAIT_DISTRICT_SCHOOL_IDOL_PROJECT_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_DISTRICT_SCHOOL_IDOL_PROJECT_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_DISTRICT_SCHOOL_IDOL_PROJECT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_DISTRICT_SCHOOL_IDOL_PROJECT_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SCHOOL_IDOL_PROJECT_NAME" Language="zh_Hans_CN">
+			<Text>School Idol Project</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SCHOOL_IDOL_PROJECT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>Liella!特色区域，代替剧院广场区域。除剧院广场相邻加成外，相邻市中心，海岸与湖泊单元格，河流时获得大量相邻加成。是城市中的学园偶像聚集场所。提供+1 [ICON_Amenities] 宜居度，相邻单元格魅力值+2。建成时即拥有一个[ICON_GreatWork_Music]音乐巨作槽位，所有[ICON_GreatWork_Music]音乐巨作自动获得主题化。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SCHOOL_IDOL_PORJECT_RIVER_CULTURE" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Culture] 文化值来自相邻河流。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SCHOOL_IDOL_PORJECT_COAST_CULTURE" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Culture] 文化值来自相邻海岸与湖泊单元格。</Text>
+		</Row>
+		<!--文明特色单位-->
+		<Row Tag="LOC_TRAIT_UNIT_SCHOOL_IDOL_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_UNIT_SCHOOL_IDOL_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_SCHOOL_IDOL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_UNIT_SCHOOL_IDOL_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SCHOOL_IDOL_NAME" Language="zh_Hans_CN">
+			<Text>学园偶像</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SCHOOL_IDOL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>替代摇滚乐队，解锁启蒙运动市政后即可训练和使用[ICON_Faith]信仰值购买，拥有更低的价格。演出后产生的[ICON_Tourism]旅游业绩低于摇滚乐队，但是有概率产生[ICON_GreatWork_Music]音乐巨作。</Text>
+		</Row>
+		<!--领袖介绍&领袖外交-->
+		<Row Tag="LOC_LEADERS_PAGE_LEADER_TANG_KEKE_QUOTE" Language="zh_Hans_CN">
+			<Text>太好听了吧！你唱歌真的好好听啊，简直就是天籁！</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_TANG_KEKE" Language="zh_Hans_CN">
+			<Text>上海卷王，中国姛（划掉）。因为憧憬学园偶像，想要成为学院偶像而从中国上海来到日本。在遇见涩谷香音后邀请她成为学园偶像，并组建了Liella!。</Text>
+		</Row>
+
+		<!--MOD介绍，打包后添加到.modinfo文件中-->
 		<Row Tag="LOC_TANGKEKE_MOD_NAME" Language="zh_Hans_CN">
-			<Text>[COLOR:ResCultureLabelCS]LoveLive!Superstar!![ENDCOLOR]————[COLOR:199,188,168,255]唐可可[ENDCOLOR]</Text>
+			<Text>[COLOR:ResCultureLabelCS]LoveLive!Superstar!![ENDCOLOR]——[COLOR:199,188,168,255]唐可可[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="LOC_TANGKEKE_MOD_TEASER" Language="zh_Hans_CN">
 			<Text>本MOD添加了：[NEWLINE]一个新的领袖：唐可可。[NEWLINE]一个新的文明：Liella!</Text>
 		</Row>
 		<Row Tag="LOC_TANGKEKE_MOD_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>[COLOR:199,188,168,255]唐可可[ENDCOLOR]：上海卷王，中国姛（划掉）。因为憧憬学园偶像，想要成为学院偶像而从中国上海来到日本。[NEWLINE][COLOR:ResCultureLabelCS]Liella![ENDCOLOR]：由结丘女子高等学校的五位学生组成的学园偶像团体。其团名Liella!由法语的lier（连结）与来自意大利语的音乐术语brillante（内心闪耀的）组合而成，寓意“现在还是很小的星星，但如果将内心的闪耀相连，就一定可以成为Superstar”。（该段取自萌娘百科Liella!条目）</Text>
+			<Text>[COLOR:199,188,168,255]唐可可[ENDCOLOR]：上海卷王，中国姛（划掉）。因为憧憬学园偶像，想要成为学院偶像而从中国上海来到日本。[NEWLINE][COLOR:ResCultureLabelCS]Liella![ENDCOLOR]：由结丘女子高等学校的五位学生组成的学园偶像团体。其团名Liella!由法语的lier（连结）与来自意大利语的音乐术语brillante（内心闪耀的）组合而成，寓意“现在还是很小的星星，但如果将内心的闪耀相连，就一定可以成为Superstar”。[NEWLINE][COLOR_RED]本MOD部分介绍文本引用自萌娘百科：https://zh.moegirl.org.cn[ENDCOLOR]</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

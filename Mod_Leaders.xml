@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Mod_Leaders -->
+<!-- Author: zheng -->
+<!-- DateCreated: 11/9/2021 10:18:50 AM -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_TANG_KEKE" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_LEADER_ABILITY_TANG_KEKE" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<Leaders>
+		<Row LeaderType="LEADER_TANG_KEKE" Name="LOC_LEADER_TANG_KEKE_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+
+	<LeaderQuotes>
+		<!--
+			Play_LEADER_TANG_KEKE_QUOTES:太好听了吧！（语音）
+		-->
+		<Row LeaderType="LEADER_TANG_KEKE" Quote="LOC_LEADERS_PAGE_LEADER_TANG_KEKE_QUOTE" QuoteAudio="Play_LEADER_TANG_KEKE_QUOTES"/>
+	</LeaderQuotes>
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_ABILITY_TANG_KEKE" Name="LOC_TRAIT_LEADER_ABILITY_TANG_KEKE_NAME" Description="LOC_TRAIT_LEADER_ABILITY_TANG_KEKE_DESCRIPTION"/>
+	</Traits>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_TANG_KEKE" TraitType="TRAIT_LEADER_ABILITY_TANG_KEKE"/>
+	</LeaderTraits>
+
+	<LoadingInfo>
+		<Row>
+			<LeaderType>LEADER_TANG_KEKE</LeaderType>
+			<ForegroundImage>IMG_LEADER_TANG_KEKE_LOADING_FOREGROUND.dds</ForegroundImage>
+			<BackgroundImage>IMG_LEADER_TANG_KEKE_LOADING_BACKGROUND.dds</BackgroundImage>
+			<PlayDawnOfManAudio>1</PlayDawnOfManAudio>
+		</Row>
+	</LoadingInfo>
+
+	<DiplomacyInfo>
+		<Row>
+			<Type>LEADER_TANG_KEKE</Type>
+			<BackgroundImage>IMG_LEADER_TANG_KEKE_DIPLOMACY_BACKGROUND.dds</BackgroundImage>
+		</Row>
+	</DiplomacyInfo>
+</GameData>
