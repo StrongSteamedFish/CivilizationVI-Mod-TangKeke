@@ -2,6 +2,8 @@
 -- Author: zheng
 -- DateCreated: 11/9/2021 4:09:46 PM
 --------------------------------------------------------------
+-- 特色单位：学园偶像
+--------------------------------------------------------------
 INSERT INTO Types
 	(Type, Kind)
 VALUES
@@ -44,5 +46,5 @@ FROM UnitAiInfos WHERE UnitType='UNIT_ROCK_BAND';
 INSERT INTO TypeTags
 	(Type, Tag)
 SELECT	
-	'UNIT_ROCK_BAND', Tag
+	'UNIT_SCHOOL_IDOL', Tag
 FROM TypeTags WHERE Type='UNIT_ROCK_BAND';

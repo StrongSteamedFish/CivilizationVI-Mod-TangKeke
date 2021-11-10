@@ -2,6 +2,7 @@
 <!-- Mod_Leaders -->
 <!-- Author: zheng -->
 <!-- DateCreated: 11/9/2021 10:18:50 AM -->
+<!-- 领袖相关 -->
 <GameData>
 	<Types>
 		<Row Type="LEADER_TANG_KEKE" Kind="KIND_CIVILIZATION"/>

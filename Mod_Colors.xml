@@ -2,6 +2,7 @@
 <!-- Mod_Colors -->
 <!-- Author: zheng -->
 <!-- DateCreated: 11/9/2021 10:55:04 AM -->
+<!-- 领袖色彩 -->
 <GameData>
 	<Colors>
 		<Row Type="COLOR_LEADER_TANG_KEKE_PRIMARY" Color="199,188,168,255"/>

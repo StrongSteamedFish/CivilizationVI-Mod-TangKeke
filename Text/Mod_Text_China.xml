@@ -2,6 +2,7 @@
 <!-- Mod_Text_China -->
 <!-- Author: zheng -->
 <!-- DateCreated: 11/9/2021 9:22:50 AM -->
+<!-- 文本 -->
 <GameData>
 	<LocalizedText>
 		<!--城市名称&市民名称-->
@@ -22,7 +23,7 @@
 			<Text>Liella!</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_ABILITY_LIELLA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>每当解锁新时代第一项[ICON_CultureLarge]市政时，自动获得一个[ICON_GreatWork_Music]音乐巨作，拥有[ICON_GreatWork_Music]音乐巨作的城市对附近城市的忠诚度压力+100%。拥有摇滚乐队的强力替代：学园偶像，可更早解锁，拥有更低的价格，但是产出的[ICON_Tourism]旅游业绩低于摇滚乐队。</Text>
+			<Text>每当解锁新时代第1项[ICON_CultureLarge]市政时，自动获得1个[ICON_GreatWork_Music]音乐巨作。拥有摇滚乐队的强力替代：学园偶像，可更早解锁，拥有更低的价格且可以直接训练，能够选择全部升级而非随机，但是在处于和平的城市演出时产出的[ICON_Tourism]旅游业绩会降低。</Text>
 		</Row>
 		<!--领袖&领袖能力-->
 		<Row Tag="LOC_LEADER_TANG_KEKE_NAME" Language="zh_Hans_CN">
@@ -45,13 +46,22 @@
 			<Text>School Idol Project</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_SCHOOL_IDOL_PROJECT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Liella!特色区域，代替剧院广场区域。除剧院广场相邻加成外，相邻市中心，海岸与湖泊单元格，河流时获得大量相邻加成。是城市中的学园偶像聚集场所。提供+1[ICON_Amenities]宜居度，相邻单元格魅力值+2。建成时即拥有一个[ICON_GreatWork_Music]音乐巨作槽位，所有[ICON_GreatWork_Music]音乐巨作自动获得主题化。</Text>
+			<Text>Liella!特色区域，代替剧院广场区域，是城市中的学园偶像聚集场所。除剧院广场相邻加成外，相邻市中心，海岸与湖泊单元格，河流时获得大量相邻加成。提供+1[ICON_Amenities]宜居度，相邻单元格魅力值+2。建成后自动获得3个[ICON_GreatWork_Music]音乐巨作槽位，填满后自动获得主题化。</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_SCHOOL_IDOL_PORJECT_RIVER_CULTURE" Language="zh_Hans_CN">
 			<Text>+{1_num} [ICON_Culture] 文化值来自相邻河流。</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_SCHOOL_IDOL_PORJECT_COAST_CULTURE" Language="zh_Hans_CN">
 			<Text>+{1_num} [ICON_Culture] 文化值来自相邻海岸与湖泊单元格。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SCHOOL_IDOL_CENTER_NAME" Language="zh_Hans_CN">
+			<Text>学园偶像中心</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SCHOOL_IDOL_CENTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>School Idol Project展示音乐作品的地方。提供3个音乐巨作槽位，填满后自动获得主题化。</Text>
+		</Row>
+		<Row Tag="LOC_SCHOOL_IDOL_AUTO_THEMING" Language="zh_Hans_CN">
+			<Text>填满后自动获得主题化。</Text>
 		</Row>
 		<!--文明特色单位-->
 		<Row Tag="LOC_TRAIT_UNIT_SCHOOL_IDOL_NAME" Language="zh_Hans_CN">
@@ -64,7 +74,7 @@
 			<Text>学园偶像</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SCHOOL_IDOL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>替代摇滚乐队，解锁启蒙运动市政后即可训练和使用[ICON_Faith]信仰值购买，拥有更低的价格。演出后产生的[ICON_Tourism]旅游业绩低于摇滚乐队，但是有概率产生[ICON_GreatWork_Music]音乐巨作。</Text>
+			<Text>替代摇滚乐队，解锁启蒙运动市政后即可训练和使用[ICON_Faith]信仰值购买，拥有更低的价格。能够选择全部升级而非随机，但是在处于和平的城市演出时产出的[ICON_Tourism]旅游业绩会降低。</Text>
 		</Row>
 		<!--领袖介绍&领袖外交-->
 		<Row Tag="LOC_LEADERS_PAGE_LEADER_TANG_KEKE_QUOTE" Language="zh_Hans_CN">

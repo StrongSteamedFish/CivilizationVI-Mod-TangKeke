@@ -18,7 +18,7 @@
     <AssemblyName>TangKeke</AssemblyName>
     <RootNamespace>TangKeke</RootNamespace>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateText id="Mod_Text"><File>Text/Mod_Text_China.xml</File></UpdateText><UpdateDatabase id="Mod_Config"><File>Mod_Config.xml</File></UpdateDatabase><UpdateColors id="Mod_Colors"><File>Mod_Colors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateText id="ModText"><File>Text/Mod_Text_China.xml</File></UpdateText><UpdateDatabase id="Mod_GameData"><Properties><LoadOrder>99999</LoadOrder></Properties><File>Mod_Leaders.xml</File><File>Mod_Civilizations.xml</File><File>Mod_Districts.sql</File><File>Mod_Units.sql</File><File>Mod_Civilization_Abilities.sql</File><File>Mod_Leader_Abilities.sql</File></UpdateDatabase><UpdateColors id="Mod_Colors"><File>Mod_Colors.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateText id="ModText"><File>Text/Mod_Text_China.xml</File></UpdateText><UpdateDatabase id="Mod_GameData"><Properties><LoadOrder>99999</LoadOrder></Properties><File>Mod_Leaders.xml</File><File>Mod_Civilizations.xml</File><File>Mod_Districts.sql</File><File>Mod_Units.sql</File><File>Mod_Civilization_Abilities.sql</File><File>Mod_Leader_Abilities.sql</File><File>Mod_Buildings.sql</File></UpdateDatabase><UpdateColors id="Mod_Colors"><File>Mod_Colors.xml</File></UpdateColors><ReplaceUIScript id="Mod_ReplaceUI"><Properties><LoadOrder>99999</LoadOrder><LuaContext>UnitPanel</LuaContext><LuaReplace>UnitPanel_TangKeke.lua</LuaReplace></Properties></ReplaceUIScript></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -30,6 +30,9 @@
     <Folder Include="Text" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Mod_Buildings.sql">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Mod_Civilizations.xml">
       <SubType>Content</SubType>
     </Content>
@@ -55,6 +58,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Text\Mod_Text_China.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UnitPanel_TangKeke.lua">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>

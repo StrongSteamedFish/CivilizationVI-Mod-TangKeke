@@ -2,6 +2,7 @@
 <!-- Mod_Civilizations -->
 <!-- Author: zheng -->
 <!-- DateCreated: 11/9/2021 10:33:12 AM -->
+<!-- 文明相关 -->
 <GameData>
 	<Types>
 		<Row Type="CIVILIZATION_LIELLA" Kind="KIND_CIVILIZATION"/>

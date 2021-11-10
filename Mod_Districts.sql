@@ -2,6 +2,8 @@
 -- Author: zheng
 -- DateCreated: 11/9/2021 1:21:49 PM
 --------------------------------------------------------------
+-- ��ɫ����School Idol Project
+--------------------------------------------------------------
 INSERT INTO Types
 	(Type, Kind)
 VALUES
@@ -77,3 +79,17 @@ INSERT INTO DistrictReplaces
 VALUES
 	('DISTRICT_SCHOOL_IDOL_PROJECT', 'DISTRICT_THEATER');
 
+INSERT INTO DistrictModifiers
+	(DistrictType, ModifierId)
+VALUES 
+	('DISTRICT_SCHOOL_IDOL_PROJECT', 'MODIFIER_SCHOOL_IDOL_PROJECT_GRANT_FREE_BUILDING');
+
+INSERT INTO Modifiers
+	(ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId)
+VALUES 
+	('MODIFIER_SCHOOL_IDOL_PROJECT_GRANT_FREE_BUILDING', 'MODIFIER_SINGLE_CITY_GRANT_BUILDING_IN_CITY_IGNORE', 1, 0, 0, NULL, NULL);
+
+INSERT INTO ModifierArguments
+	(ModifierId, Name, Value)
+VALUES 
+	('MODIFIER_SCHOOL_IDOL_PROJECT_GRANT_FREE_BUILDING', 'BuildingType', 'BUILDING_SCHOOL_IDOL_CENTER');
