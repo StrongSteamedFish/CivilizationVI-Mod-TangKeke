@@ -18,7 +18,7 @@
     <AssemblyName>TangKeke</AssemblyName>
     <RootNamespace>TangKeke</RootNamespace>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateText id="Mod_Text"><File>Text/Mod_Text_China.xml</File></UpdateText><UpdateDatabase id="Mod_Config"><File>Mod_Config.xml</File></UpdateDatabase><UpdateColors id="Mod_Colors"><File>Mod_Colors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateText id="ModText"><File>Text/Mod_Text_China.xml</File></UpdateText><UpdateDatabase id="Mod_GameData"><Properties><LoadOrder>99999</LoadOrder></Properties><File>Mod_Leaders.xml</File><File>Mod_Civilizations.xml</File><File>Mod_Districts.sql</File><File>Mod_Units.sql</File><File>Mod_Civilization_Abilities.sql</File><File>Mod_Leader_Abilities.sql</File><File>Mod_Buildings.sql</File></UpdateDatabase><UpdateColors id="Mod_Colors"><File>Mod_Colors.xml</File></UpdateColors><ReplaceUIScript id="Mod_ReplaceUI_UnitPanel"><Properties><LoadOrder>99999</LoadOrder><LuaContext>UnitPanel</LuaContext><LuaReplace>UnitPanel_TangKeke.lua</LuaReplace></Properties></ReplaceUIScript><AddGameplayScripts id="Mod_GameplayScripts"><File>Leader_Abilities_GetTechFromCulture_Gameplay.lua</File></AddGameplayScripts><ReplaceUIScript id="Mod_ReplaceUI_StatusMessagePanel"><Properties><LoadOrder>99999</LoadOrder><LuaContext>StatusMessagePanel</LuaContext><LuaReplace>Leader_Abilities_GetTechFromCulture_UI.lua</LuaReplace></Properties></ReplaceUIScript></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateText id="ModText"><File>Text/Mod_Text_China.xml</File></UpdateText><UpdateDatabase id="Mod_GameData"><Properties><LoadOrder>99999</LoadOrder></Properties><File>Mod_Leaders.xml</File><File>Mod_Civilizations.xml</File><File>Mod_Districts.sql</File><File>Mod_Units.sql</File><File>Mod_Civilization_Abilities.sql</File><File>Mod_Leader_Abilities.sql</File><File>Mod_Buildings.sql</File><File>Mod_GreatPeople.sql</File><File>Mod_GreatPersonIndividuals.sql</File><File>Mod_GreatWorks.sql</File></UpdateDatabase><UpdateColors id="Mod_Colors"><File>Mod_Colors.xml</File></UpdateColors><ReplaceUIScript id="Mod_ReplaceUI_UnitPanel"><Properties><LoadOrder>99999</LoadOrder><LuaContext>UnitPanel</LuaContext><LuaReplace>UnitPanel_TangKeke.lua</LuaReplace></Properties></ReplaceUIScript><AddGameplayScripts id="Mod_GameplayScripts"><File>Leader_Abilities_GetTechFromCulture_Gameplay.lua</File><File>Mod_GrantGreatPersonLiella.lua</File></AddGameplayScripts><ReplaceUIScript id="Mod_ReplaceUI_StatusMessagePanel"><Properties><LoadOrder>99999</LoadOrder><LuaContext>StatusMessagePanel</LuaContext><LuaReplace>Leader_Abilities_GetTechFromCulture_UI.lua</LuaReplace></Properties></ReplaceUIScript></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -52,6 +52,18 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Mod_Districts.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Mod_GrantGreatPersonLiella.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Mod_GreatPeople.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Mod_GreatPersonIndividuals.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Mod_GreatWorks.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Mod_Leaders.xml">

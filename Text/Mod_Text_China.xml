@@ -33,7 +33,7 @@
 			<Text>上海卷王</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_ABILITY_TANG_KEKE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>无法获得[ICON_TechBoosted]尤里卡。每个回合开始时将会获得等同于文明总[ICON_Culture]文化值产出30%的[ICON_Science]科技值，获得科技将以游戏内信息的方式提示在左上部分（注意：这可能会让实际研究完一项科技使用的回合数小于你在科技数面板中看到的预计回合数）。建造School Idol Project、学院和工业区时+100%[ICON_Production]生产力。</Text>
+			<Text>无法获得[ICON_TechBoosted]尤里卡。每个回合开始时将会获得等同于文明总[ICON_Culture]文化值产出30%的[ICON_Science]科技值，获得科技将以游戏内信息的方式提示在左上部分[COLOR:255,136,204,255]（注意：这可能会让实际研究完一项科技使用的回合数小于你在科技树面板中看到的预计回合数）[ENDCOLOR]。建造School Idol Project、学院和工业区时+100%[ICON_Production]生产力。</Text>
 		</Row>
 		<Row Tag="LOC_TANG_KEKE_GRANT_TECH_MESSAGE_1" Language="zh_Hans_CN">
 			<Text>从文明[ICON_Culture]文化值总产出中[NEWLINE]获得</Text>
@@ -81,6 +81,76 @@
 		</Row>
 		<Row Tag="LOC_UNIT_SCHOOL_IDOL_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>替代摇滚乐队，解锁启蒙运动市政后即可训练和使用[ICON_Faith]信仰值购买，拥有更低的价格。能够选择全部升级而非随机，但是在处于和平的城市演出时产出的[ICON_Tourism]旅游业绩会降低。解散时将产生1张[ICON_GreatWork_Music]Liella!唱片。</Text>
+		</Row>
+		<!--新增伟人和唱片-->
+		<Row Tag="LOC_GREAT_PERSON_CLASS_LIELLA_NAME" Language="zh_Hans_CN">
+			<Text>Liella!</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GREAT_PERSON_LIELLA_NAME" Language="zh_Hans_CN">
+			<Text>Liella!唱片</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GREAT_PERSON_LIELLA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>激活时，每个 [ICON_GreatMusician] Liella!唱片单位都能产生一个 由Liella!创作的[ICON_GreatWork_Music] 音乐巨作。访问伟人面板了解更多，并跟踪您的进度。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_LIELLA_RECORD_NAME" Language="zh_Hans_CN">
+			<Text>Liella!</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD1_NAME" Language="zh_Hans_CN">
+			<Text>ノンフィクション!!</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD2_NAME" Language="zh_Hans_CN">
+			<Text>Starlight Prologue</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD3_NAME" Language="zh_Hans_CN">
+			<Text>Dream Rainbow</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD4_NAME" Language="zh_Hans_CN">
+			<Text>未来予報ハレルヤ!</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD5_NAME" Language="zh_Hans_CN">
+			<Text>Tiny Stars</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD6_NAME" Language="zh_Hans_CN">
+			<Text>1.2.3!</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD7_NAME" Language="zh_Hans_CN">
+			<Text>Wish Song</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD8_NAME" Language="zh_Hans_CN">
+			<Text>だから僕らは鳴らすんだ!</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD9_NAME" Language="zh_Hans_CN">
+			<Text>Dreaming Energy</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD10_NAME" Language="zh_Hans_CN">
+			<Text>Wish Song</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD11_NAME" Language="zh_Hans_CN">
+			<Text>始まりは君の空</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD12_NAME" Language="zh_Hans_CN">
+			<Text>Departure</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD13_NAME" Language="zh_Hans_CN">
+			<Text>Primary</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD14_NAME" Language="zh_Hans_CN">
+			<Text>Anniversary (唐 可可 Ver.)</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD15_NAME" Language="zh_Hans_CN">
+			<Text>Ringing! (唐 可可 Ver.)</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD16_NAME" Language="zh_Hans_CN">
+			<Text>START!! True dreams</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD17_NAME" Language="zh_Hans_CN">
+			<Text>LIVE with a smile! (Liella! Ver.)</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD18_NAME" Language="zh_Hans_CN">
+			<Text>未来は風のように</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD19_NAME" Language="zh_Hans_CN">
+			<Text>この街でいまキミと</Text>
 		</Row>
 		<!--领袖介绍&领袖外交-->
 		<Row Tag="LOC_LEADERS_PAGE_LEADER_TANG_KEKE_QUOTE" Language="zh_Hans_CN">
