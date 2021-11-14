@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Leader_Abilities_GrantUnitAbilitiesFromMusic -->
+<!-- Author: zheng -->
+<!-- DateCreated: 11/14/2021 5:02:25 PM -->
+<!-- 由于获取城市音乐巨作的相关接口只能在UI接口使用，而UI环境加载lua文件需要使用同名的xml来作为入口。所以创建了一个空的该文件用来将lua文件加载在UI环境中 -->
+<Context>
+
+</Context>

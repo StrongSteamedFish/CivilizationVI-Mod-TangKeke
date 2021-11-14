@@ -33,7 +33,49 @@
 			<Text>上海卷王</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_ABILITY_TANG_KEKE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>无法获得[ICON_TechBoosted]尤里卡。每个回合开始时将会获得等同于文明总[ICON_Culture]文化值产出30%的[ICON_Science]科技值，获得科技将以游戏内信息的方式提示在左上部分[COLOR:255,136,204,255]（注意：这可能会让实际研究完一项科技使用的回合数小于你在科技树面板中看到的预计回合数）[ENDCOLOR]。建造School Idol Project、学院和工业区时+100%[ICON_Production]生产力。</Text>
+			<Text>无法获得[ICON_TechBoosted]尤里卡。每个回合开始时将会获得等同于文明总[ICON_Culture]文化值产出30%的[ICON_Science]科技值，获得科技将以游戏内信息的方式提示在右上部分[COLOR:255,136,204,255]（注意：这可能会让实际研究完一项科技使用的回合数小于你在科技树面板中看到的预计回合数）[ENDCOLOR]。建造School Idol Project、学院和工业区时+100%[ICON_Production]生产力。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_NAME" Language="zh_Hans_CN">
+			<Text>八达岭</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有陆地战斗单位-5[ICON_Strength]战斗力，海军战斗单位-1[ICON_Movement]移动力。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_REDUCE_COMBAT_FROM_TANGKEKE_ABILITY2_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_REDUCE_MOVEMENT_FROM_TANGKEKE_ABILITY2_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_REDUCE_COMBAT_FROM_TANGKEKE_ABILITY2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_NAME}：[COLOR_RED]-5[ENDCOLOR][ICON_Strength]战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_REDUCE_MOVEMENT_FROM_TANGKEKE_ABILITY2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_NAME}：[COLOR_RED]-1[ENDCOLOR][ICON_Movement]移动力。</Text>
+		</Row>
+		<Row Tag="LOC_COMBAT_PREVIEW_Modifier_reduce_combat_from_tkk_ab2" Language="zh_Hans_CN">
+			<Text>来自{LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_NAME}的能力[COLOR_RED]{1_Value}[ENDCOLOR][ICON_Strength]战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_NAME" Language="zh_Hans_CN">
+			<Text>声音很好听的同学</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>回合开始时，所有在拥有音乐巨作的城市中的单位获得+2[ICON_Movement]移动力，战斗单位额外获得+10[ICON_Strength]战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GRANT_COMBAT_FROM_TANGKEKE_ABILITY3_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GRANT_COMBAT_FROM_TANGKEKE_ABILITY3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_NAME}：+10[ICON_Strength]战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GRANT_MOVEMENT_FROM_TANGKEKE_ABILITY3_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GRANT_MOVEMENT_FROM_TANGKEKE_ABILITY3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_NAME}：+2[ICON_Movement]移动力。</Text>
+		</Row>
+		<Row Tag="LOC_COMBAT_PREVIEW_Modifier_grant_combat_from_tkk_ab3" Language="zh_Hans_CN">
+			<Text>来自{LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_NAME}的能力+{1_Value}[ICON_Strength]战斗力</Text>
 		</Row>
 		<Row Tag="LOC_TANG_KEKE_GRANT_TECH_MESSAGE_1" Language="zh_Hans_CN">
 			<Text>从文明[ICON_Culture]文化值总产出中[NEWLINE]获得</Text>

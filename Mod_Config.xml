@@ -69,11 +69,73 @@
 		<Row>
 			<CivilizationType>CIVILIZATION_LIELLA</CivilizationType>
 			<LeaderType>LEADER_TANG_KEKE</LeaderType>
+			<Type>TRAIT_LEADER_ABILITY2_TANG_KEKE</Type>
+			<Icon>ICON_LEADER_TANG_KEKE</Icon>
+			<Name>LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_NAME</Name>
+			<Description>LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_DESCRIPTION</Description>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+
+			<CivilizationType>CIVILIZATION_LIELLA</CivilizationType>
+			<LeaderType>LEADER_TANG_KEKE</LeaderType>
+			<Type>TRAIT_LEADER_ABILITY2_TANG_KEKE</Type>
+			<Icon>ICON_LEADER_TANG_KEKE</Icon>
+			<Name>LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_NAME</Name>
+			<Description>LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_DESCRIPTION</Description>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+
+			<CivilizationType>CIVILIZATION_LIELLA</CivilizationType>
+			<LeaderType>LEADER_TANG_KEKE</LeaderType>
+			<Type>TRAIT_LEADER_ABILITY2_TANG_KEKE</Type>
+			<Icon>ICON_LEADER_TANG_KEKE</Icon>
+			<Name>LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_NAME</Name>
+			<Description>LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_DESCRIPTION</Description>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LIELLA</CivilizationType>
+			<LeaderType>LEADER_TANG_KEKE</LeaderType>
+			<Type>TRAIT_LEADER_ABILITY3_TANG_KEKE</Type>
+			<Icon>ICON_LEADER_TANG_KEKE</Icon>
+			<Name>LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_NAME</Name>
+			<Description>LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_DESCRIPTION</Description>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+
+			<CivilizationType>CIVILIZATION_LIELLA</CivilizationType>
+			<LeaderType>LEADER_TANG_KEKE</LeaderType>
+			<Type>TRAIT_LEADER_ABILITY3_TANG_KEKE</Type>
+			<Icon>ICON_LEADER_TANG_KEKE</Icon>
+			<Name>LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_NAME</Name>
+			<Description>LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_DESCRIPTION</Description>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+
+			<CivilizationType>CIVILIZATION_LIELLA</CivilizationType>
+			<LeaderType>LEADER_TANG_KEKE</LeaderType>
+			<Type>TRAIT_LEADER_ABILITY3_TANG_KEKE</Type>
+			<Icon>ICON_LEADER_TANG_KEKE</Icon>
+			<Name>LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_NAME</Name>
+			<Description>LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_DESCRIPTION</Description>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_LIELLA</CivilizationType>
+			<LeaderType>LEADER_TANG_KEKE</LeaderType>
 			<Type>DISTRICT_SCHOOL_IDOL_PROJECT</Type>
 			<Icon>ICON_DISTRICT_SCHOOL_IDOL_PROJECT</Icon>
 			<Name>LOC_DISTRICT_SCHOOL_IDOL_PROJECT_NAME</Name>
 			<Description>LOC_DISTRICT_SCHOOL_IDOL_PROJECT_DESCRIPTION</Description>
-			<SortIndex>10</SortIndex>
+			<SortIndex>30</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
@@ -84,7 +146,7 @@
 			<Icon>ICON_DISTRICT_SCHOOL_IDOL_PROJECT</Icon>
 			<Name>LOC_DISTRICT_SCHOOL_IDOL_PROJECT_NAME</Name>
 			<Description>LOC_DISTRICT_SCHOOL_IDOL_PROJECT_DESCRIPTION</Description>
-			<SortIndex>10</SortIndex>
+			<SortIndex>30</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
@@ -95,7 +157,7 @@
 			<Icon>ICON_DISTRICT_SCHOOL_IDOL_PROJECT</Icon>
 			<Name>LOC_DISTRICT_SCHOOL_IDOL_PROJECT_NAME</Name>
 			<Description>LOC_DISTRICT_SCHOOL_IDOL_PROJECT_DESCRIPTION</Description>
-			<SortIndex>10</SortIndex>
+			<SortIndex>30</SortIndex>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_LIELLA</CivilizationType>
@@ -104,7 +166,7 @@
 			<Icon>ICON_UNIT_SCHOOL_IDOL</Icon>
 			<Name>LOC_UNIT_SCHOOL_IDOL_NAME</Name>
 			<Description>LOC_UNIT_SCHOOL_IDOL_DESCRIPTION</Description>
-			<SortIndex>20</SortIndex>
+			<SortIndex>40</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
@@ -115,7 +177,7 @@
 			<Icon>ICON_UNIT_SCHOOL_IDOL</Icon>
 			<Name>LOC_UNIT_SCHOOL_IDOL_NAME</Name>
 			<Description>LOC_UNIT_SCHOOL_IDOL_DESCRIPTION</Description>
-			<SortIndex>20</SortIndex>
+			<SortIndex>40</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
@@ -126,7 +188,7 @@
 			<Icon>ICON_UNIT_SCHOOL_IDOL</Icon>
 			<Name>LOC_UNIT_SCHOOL_IDOL_NAME</Name>
 			<Description>LOC_UNIT_SCHOOL_IDOL_DESCRIPTION</Description>
-			<SortIndex>20</SortIndex>
+			<SortIndex>40</SortIndex>
 		</Row>
 	</PlayerItems>
 </GameData>
