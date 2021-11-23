@@ -17,8 +17,8 @@
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
     <AssemblyName>TangKeke</AssemblyName>
     <RootNamespace>TangKeke</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateText id="Mod_Text"><File>Text/Mod_Text_China.xml</File></UpdateText><UpdateDatabase id="Mod_Config"><File>Mod_Config.xml</File></UpdateDatabase><UpdateColors id="Mod_Colors"><File>Mod_Colors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateText id="ModText"><File>Text/Mod_Text_China.xml</File></UpdateText><UpdateDatabase id="Mod_GameData"><Properties><LoadOrder>99999</LoadOrder></Properties><File>Mod_Leaders.xml</File><File>Mod_Civilizations.xml</File><File>Mod_Districts.sql</File><File>Mod_Units.sql</File><File>Mod_Civilization_Abilities.sql</File><File>Mod_Leader_Abilities.sql</File><File>Mod_Buildings.sql</File><File>Mod_GreatPeople.sql</File><File>Mod_GreatPersonIndividuals.sql</File><File>Mod_GreatWorks.sql</File></UpdateDatabase><UpdateColors id="Mod_Colors"><File>Mod_Colors.xml</File></UpdateColors><ReplaceUIScript id="Mod_ReplaceUI_UnitPanel"><Properties><LoadOrder>99999</LoadOrder><LuaContext>UnitPanel</LuaContext><LuaReplace>UnitPanel_TangKeke.lua</LuaReplace></Properties></ReplaceUIScript><AddGameplayScripts id="Mod_GameplayScripts"><File>Leader_Abilities_GetTechFromCulture_Gameplay.lua</File><File>Mod_GrantGreatPersonLiella.lua</File><File>Mod_ExposedMembers.lua</File></AddGameplayScripts><ReplaceUIScript id="Mod_ReplaceUI_StatusMessagePanel"><Properties><LoadOrder>99999</LoadOrder><LuaContext>StatusMessagePanel</LuaContext><LuaReplace>Leader_Abilities_GetTechFromCulture_UI.lua</LuaReplace></Properties></ReplaceUIScript><AddUserInterfaces id="Mod_UI"><Properties><LoadOrder>99999</LoadOrder><Context>InGame</Context></Properties><File>Leader_Abilities_GrantUnitAbilitiesFromMusic.xml</File></AddUserInterfaces></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateText id="Mod_Text"><File>Text/Mod_Text_China.xml</File></UpdateText><UpdateDatabase id="Mod_Config"><File>Mod_Config.xml</File></UpdateDatabase><UpdateColors id="Mod_Colors"><File>Mod_Colors.xml</File></UpdateColors><UpdateIcons id="Mod_Icons"><File>Mod_Icons.xml</File></UpdateIcons><UpdateArt id="Mod_Arts"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateText id="ModText"><File>Text/Mod_Text_China.xml</File></UpdateText><UpdateDatabase id="Mod_GameData"><Properties><LoadOrder>99999</LoadOrder></Properties><File>Mod_Leaders.xml</File><File>Mod_Civilizations.xml</File><File>Mod_Districts.sql</File><File>Mod_Units.sql</File><File>Mod_Civilization_Abilities.sql</File><File>Mod_Leader_Abilities.sql</File><File>Mod_Buildings.sql</File><File>Mod_Agenda.sql</File><File>Mod_GreatPeople.sql</File><File>Mod_GreatPersonIndividuals.sql</File><File>Mod_GreatWorks.sql</File><File>Mod_MomentIllustrations.sql</File></UpdateDatabase><UpdateColors id="Mod_Colors"><File>Mod_Colors.xml</File></UpdateColors><ReplaceUIScript id="Mod_ReplaceUI_UnitPanel"><Properties><LoadOrder>99999</LoadOrder><LuaContext>UnitPanel</LuaContext><LuaReplace>UnitPanel_TangKeke.lua</LuaReplace></Properties></ReplaceUIScript><AddGameplayScripts id="Mod_GameplayScripts"><File>Leader_Abilities_GetTechFromCulture_Gameplay.lua</File><File>Mod_GrantGreatPersonLiella.lua</File><File>Mod_ExposedMembers.lua</File></AddGameplayScripts><ReplaceUIScript id="Mod_ReplaceUI_StatusMessagePanel"><Properties><LoadOrder>99999</LoadOrder><LuaContext>StatusMessagePanel</LuaContext><LuaReplace>Leader_Abilities_GetTechFromCulture_UI.lua</LuaReplace></Properties></ReplaceUIScript><AddUserInterfaces id="Mod_UI"><Properties><LoadOrder>99999</LoadOrder><Context>InGame</Context></Properties><File>Leader_Abilities_GrantUnitAbilitiesFromMusic.xml</File></AddUserInterfaces><UpdateIcons id="Mod_Icons"><File>Mod_Icons.xml</File></UpdateIcons><UpdateArt id="Mod_Arts"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -27,9 +27,19 @@
     <None Include="TangKeke.Art.xml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="ArtDefs\" />
     <Folder Include="Text" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ArtDefs\Districts.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Leader_Abilities_GetTechFromCulture_UI.lua">
       <SubType>Content</SubType>
     </Content>
@@ -40,6 +50,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Leader_Abilities_GrantUnitAbilitiesFromMusic.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Mod_Agenda.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Mod_Buildings.sql">
@@ -75,10 +88,16 @@
     <Content Include="Mod_GreatWorks.sql">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Mod_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Mod_Leaders.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Mod_Leader_Abilities.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Mod_MomentIllustrations.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Mod_Units.sql">

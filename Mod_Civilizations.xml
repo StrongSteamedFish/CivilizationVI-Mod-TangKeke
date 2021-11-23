@@ -16,7 +16,7 @@
 			<Description>LOC_CIVILIZATION_LIELLA_DESCRIPTION</Description>
 			<Adjective>LOC_CIVILIZATION_LIELLA_ADJECTIVE</Adjective>
 			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
-			<RandomCityNameDepth>10</RandomCityNameDepth>
+			<RandomCityNameDepth>2</RandomCityNameDepth>
 			<Ethnicity>ETHNICITY_ASIAN</Ethnicity>
 		</Row>
 	</Civilizations>
@@ -35,14 +35,58 @@
 	
 	<!--城市名&市民名-->
 	<CityNames>
-		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_YUIGAOKA_NAME"/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_YUIGAOKA_NAME"		/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_SHANGHAI"	/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_XIAN"		/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_BEIJING"	/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_TAIYUAN"	/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_CHENGDU"	/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_JIAODONG"	/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_CHANGSHA"	/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_LONGXI"		/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_GUANGZHOU"	/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_HANDAN"		/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_SHENYANG"	/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_WUHAN"		/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_YIYANG"		/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_XIURONG"	/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_CHEN"		/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_XINGZHOU"	/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_QUXIAN"		/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_NANJING"	/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_LANGFANG"	/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_LINZI"		/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_JIUJIANG"	/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_KAIFENG"	/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_XUZHOU"		/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_HEFEI"		/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_XINZHENG"	/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_LUAN"		/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_QUFU"		/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_JIANGZHOU"	/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_LUOYANG"	/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" CityName="LOC_CITY_NAME_YINGCHUAN"	/>
 	</CityNames>
 
-	<!--
 	<CivilizationCitizenNames>
-		<Row CivilizationType="" Female="" Modern="" CitizenName=""/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" Female="1" Modern="0" CitizenName="LOC_CITIZEN_LIELLA_FEMALE_01"/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" Female="1" Modern="0" CitizenName="LOC_CITIZEN_LIELLA_FEMALE_02"/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" Female="1" Modern="0" CitizenName="LOC_CITIZEN_LIELLA_FEMALE_03"/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" Female="1" Modern="0" CitizenName="LOC_CITIZEN_LIELLA_FEMALE_04"/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" Female="1" Modern="0" CitizenName="LOC_CITIZEN_LIELLA_FEMALE_05"/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" Female="1" Modern="0" CitizenName="LOC_CITIZEN_LIELLA_FEMALE_06"/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" Female="1" Modern="0" CitizenName="LOC_CITIZEN_LIELLA_FEMALE_07"/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" Female="1" Modern="0" CitizenName="LOC_CITIZEN_LIELLA_FEMALE_08"/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" Female="1" Modern="0" CitizenName="LOC_CITIZEN_LIELLA_FEMALE_09"/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" Female="1" Modern="0" CitizenName="LOC_CITIZEN_LIELLA_FEMALE_10"/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" Female="1" Modern="0" CitizenName="LOC_CITIZEN_LIELLA_FEMALE_11"/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" Female="1" Modern="0" CitizenName="LOC_CITIZEN_LIELLA_FEMALE_12"/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" Female="1" Modern="0" CitizenName="LOC_CITIZEN_LIELLA_FEMALE_13"/>
+		<Row CivilizationType="CIVILIZATION_LIELLA" Female="1" Modern="0" CitizenName="LOC_CITIZEN_LIELLA_FEMALE_14"/>
 	</CivilizationCitizenNames>
-	-->
 	
-	<!--起始位置关联（暂时没有）-->
+	<!--起始位置关联：可可（似乎只会偶尔生效）-->
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_LIELLA" ResourceType="RESOURCE_COCOA" Tier="3"/>
+	</StartBiasResources>
 </GameData>

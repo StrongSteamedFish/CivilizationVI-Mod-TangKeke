@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="TKK_DDS"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_LIELLA128"/>
+			<m_ObjectName text="ICON_CIVILIZATION_LIELLA128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_LIELLA200"/>
+			<m_ObjectName text="ICON_CIVILIZATION_LIELLA200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_LIELLA22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_LIELLA22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_LIELLA256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_LIELLA256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_LIELLA30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_LIELLA30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_LIELLA32"/>
+			<m_ObjectName text="ICON_CIVILIZATION_LIELLA32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_LIELLA36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_LIELLA36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_LIELLA44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_LIELLA44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_LIELLA45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_LIELLA45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_LIELLA48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_LIELLA48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_LIELLA50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_LIELLA50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_LIELLA64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_LIELLA64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_LIELLA80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_LIELLA80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_SCHOOL_IDOL_PROJECT128"/>
+			<m_ObjectName text="ICON_DISTRICT_SCHOOL_IDOL_PROJECT128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_SCHOOL_IDOL_PROJECT22"/>
+			<m_ObjectName text="ICON_DISTRICT_SCHOOL_IDOL_PROJECT22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_SCHOOL_IDOL_PROJECT256"/>
+			<m_ObjectName text="ICON_DISTRICT_SCHOOL_IDOL_PROJECT256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_SCHOOL_IDOL_PROJECT32"/>
+			<m_ObjectName text="ICON_DISTRICT_SCHOOL_IDOL_PROJECT32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_SCHOOL_IDOL_PROJECT38"/>
+			<m_ObjectName text="ICON_DISTRICT_SCHOOL_IDOL_PROJECT38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_SCHOOL_IDOL_PROJECT50"/>
+			<m_ObjectName text="ICON_DISTRICT_SCHOOL_IDOL_PROJECT50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_SCHOOL_IDOL_PROJECT80"/>
+			<m_ObjectName text="ICON_DISTRICT_SCHOOL_IDOL_PROJECT80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_TANG_KEKE256"/>
+			<m_ObjectName text="ICON_LEADER_TANG_KEKE256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_TANG_KEKE32"/>
+			<m_ObjectName text="ICON_LEADER_TANG_KEKE32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_TANG_KEKE45"/>
+			<m_ObjectName text="ICON_LEADER_TANG_KEKE45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_TANG_KEKE48"/>
+			<m_ObjectName text="ICON_LEADER_TANG_KEKE48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_TANG_KEKE50"/>
+			<m_ObjectName text="ICON_LEADER_TANG_KEKE50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_TANG_KEKE55"/>
+			<m_ObjectName text="ICON_LEADER_TANG_KEKE55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_TANG_KEKE64"/>
+			<m_ObjectName text="ICON_LEADER_TANG_KEKE64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_TANG_KEKE80"/>
+			<m_ObjectName text="ICON_LEADER_TANG_KEKE80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_GREAT_PERSON_LIELLA22"/>
+			<m_ObjectName text="ICON_UNIT_GREAT_PERSON_LIELLA22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_GREAT_PERSON_LIELLA256"/>
+			<m_ObjectName text="ICON_UNIT_GREAT_PERSON_LIELLA256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_GREAT_PERSON_LIELLA32"/>
+			<m_ObjectName text="ICON_UNIT_GREAT_PERSON_LIELLA32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_GREAT_PERSON_LIELLA38"/>
+			<m_ObjectName text="ICON_UNIT_GREAT_PERSON_LIELLA38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_GREAT_PERSON_LIELLA50"/>
+			<m_ObjectName text="ICON_UNIT_GREAT_PERSON_LIELLA50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_GREAT_PERSON_LIELLA80"/>
+			<m_ObjectName text="ICON_UNIT_GREAT_PERSON_LIELLA80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SCHOOL_IDOL22"/>
+			<m_ObjectName text="ICON_UNIT_SCHOOL_IDOL22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SCHOOL_IDOL256"/>
+			<m_ObjectName text="ICON_UNIT_SCHOOL_IDOL256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SCHOOL_IDOL32"/>
+			<m_ObjectName text="ICON_UNIT_SCHOOL_IDOL32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SCHOOL_IDOL38"/>
+			<m_ObjectName text="ICON_UNIT_SCHOOL_IDOL38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SCHOOL_IDOL50"/>
+			<m_ObjectName text="ICON_UNIT_SCHOOL_IDOL50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SCHOOL_IDOL80"/>
+			<m_ObjectName text="ICON_UNIT_SCHOOL_IDOL80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_LEADER_TANG_KEKE_DIPLOMACY_BACKGROUND"/>
+			<m_ObjectName text="IMG_LEADER_TANG_KEKE_DIPLOMACY_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_LEADER_TANG_KEKE_LOADING_FOREGROUND"/>
+			<m_ObjectName text="IMG_LEADER_TANG_KEKE_LOADING_FOREGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_LEADER_TANG_KEKE_SELECTION_FOREGROUND"/>
+			<m_ObjectName text="IMG_LEADER_TANG_KEKE_SELECTION_FOREGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_LEADER_TANG_KEKE_SELECTION_BACKGROUND"/>
+			<m_ObjectName text="IMG_LEADER_TANG_KEKE_SELECTION_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_GREAT_PERSON_LIELLA_PORTRAIT200"/>
+			<m_ObjectName text="ICON_UNIT_GREAT_PERSON_LIELLA_PORTRAIT200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_GREAT_PERSON_LIELLA_PORTRAIT256"/>
+			<m_ObjectName text="ICON_UNIT_GREAT_PERSON_LIELLA_PORTRAIT256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_GREAT_PERSON_LIELLA_PORTRAIT38"/>
+			<m_ObjectName text="ICON_UNIT_GREAT_PERSON_LIELLA_PORTRAIT38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_GREAT_PERSON_LIELLA_PORTRAIT50"/>
+			<m_ObjectName text="ICON_UNIT_GREAT_PERSON_LIELLA_PORTRAIT50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_GREAT_PERSON_LIELLA_PORTRAIT70"/>
+			<m_ObjectName text="ICON_UNIT_GREAT_PERSON_LIELLA_PORTRAIT70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_GREAT_PERSON_LIELLA_PORTRAIT95"/>
+			<m_ObjectName text="ICON_UNIT_GREAT_PERSON_LIELLA_PORTRAIT95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SCHOOL_IDOL_PORTRAIT200"/>
+			<m_ObjectName text="ICON_UNIT_SCHOOL_IDOL_PORTRAIT200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SCHOOL_IDOL_PORTRAIT256"/>
+			<m_ObjectName text="ICON_UNIT_SCHOOL_IDOL_PORTRAIT256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SCHOOL_IDOL_PORTRAIT38"/>
+			<m_ObjectName text="ICON_UNIT_SCHOOL_IDOL_PORTRAIT38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SCHOOL_IDOL_PORTRAIT50"/>
+			<m_ObjectName text="ICON_UNIT_SCHOOL_IDOL_PORTRAIT50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SCHOOL_IDOL_PORTRAIT70"/>
+			<m_ObjectName text="ICON_UNIT_SCHOOL_IDOL_PORTRAIT70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SCHOOL_IDOL_PORTRAIT95"/>
+			<m_ObjectName text="ICON_UNIT_SCHOOL_IDOL_PORTRAIT95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_LEADER_TANG_KEKE_LOADING_BACKGROUND"/>
+			<m_ObjectName text="IMG_LEADER_TANG_KEKE_LOADING_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_TANG_KEKE2256"/>
+			<m_ObjectName text="ICON_LEADER_TANG_KEKE2256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_TANG_KEKE232"/>
+			<m_ObjectName text="ICON_LEADER_TANG_KEKE232"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_TANG_KEKE245"/>
+			<m_ObjectName text="ICON_LEADER_TANG_KEKE245"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_TANG_KEKE248"/>
+			<m_ObjectName text="ICON_LEADER_TANG_KEKE248"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_TANG_KEKE250"/>
+			<m_ObjectName text="ICON_LEADER_TANG_KEKE250"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_TANG_KEKE255"/>
+			<m_ObjectName text="ICON_LEADER_TANG_KEKE255"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_TANG_KEKE264"/>
+			<m_ObjectName text="ICON_LEADER_TANG_KEKE264"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_TANG_KEKE280"/>
+			<m_ObjectName text="ICON_LEADER_TANG_KEKE280"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_TANG_KEKE3256"/>
+			<m_ObjectName text="ICON_LEADER_TANG_KEKE3256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_TANG_KEKE332"/>
+			<m_ObjectName text="ICON_LEADER_TANG_KEKE332"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_TANG_KEKE345"/>
+			<m_ObjectName text="ICON_LEADER_TANG_KEKE345"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_TANG_KEKE348"/>
+			<m_ObjectName text="ICON_LEADER_TANG_KEKE348"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_TANG_KEKE350"/>
+			<m_ObjectName text="ICON_LEADER_TANG_KEKE350"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_TANG_KEKE355"/>
+			<m_ObjectName text="ICON_LEADER_TANG_KEKE355"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_TANG_KEKE364"/>
+			<m_ObjectName text="ICON_LEADER_TANG_KEKE364"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_TANG_KEKE380"/>
+			<m_ObjectName text="ICON_LEADER_TANG_KEKE380"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MOMENT_UNIT_SCHOOL_IDOL"/>
+			<m_ObjectName text="MOMENT_UNIT_SCHOOL_IDOL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MOMENT_DISTRICT_SCHOOL_IDOL_PROJECT"/>
+			<m_ObjectName text="MOMENT_DISTRICT_SCHOOL_IDOL_PROJECT"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LIELLA_RECORD256"/>
+			<m_ObjectName text="ICON_LIELLA_RECORD256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LIELLA_RECORD45"/>
+			<m_ObjectName text="ICON_LIELLA_RECORD45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LIELLA_RECORD64"/>
+			<m_ObjectName text="ICON_LIELLA_RECORD64"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

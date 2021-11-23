@@ -70,7 +70,7 @@
 			<CivilizationType>CIVILIZATION_LIELLA</CivilizationType>
 			<LeaderType>LEADER_TANG_KEKE</LeaderType>
 			<Type>TRAIT_LEADER_ABILITY2_TANG_KEKE</Type>
-			<Icon>ICON_LEADER_TANG_KEKE</Icon>
+			<Icon>ICON_LEADER_TANG_KEKE2</Icon>
 			<Name>LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_NAME</Name>
 			<Description>LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_DESCRIPTION</Description>
 			<SortIndex>10</SortIndex>
@@ -81,7 +81,7 @@
 			<CivilizationType>CIVILIZATION_LIELLA</CivilizationType>
 			<LeaderType>LEADER_TANG_KEKE</LeaderType>
 			<Type>TRAIT_LEADER_ABILITY2_TANG_KEKE</Type>
-			<Icon>ICON_LEADER_TANG_KEKE</Icon>
+			<Icon>ICON_LEADER_TANG_KEKE2</Icon>
 			<Name>LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_NAME</Name>
 			<Description>LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_DESCRIPTION</Description>
 			<SortIndex>10</SortIndex>
@@ -92,7 +92,7 @@
 			<CivilizationType>CIVILIZATION_LIELLA</CivilizationType>
 			<LeaderType>LEADER_TANG_KEKE</LeaderType>
 			<Type>TRAIT_LEADER_ABILITY2_TANG_KEKE</Type>
-			<Icon>ICON_LEADER_TANG_KEKE</Icon>
+			<Icon>ICON_LEADER_TANG_KEKE2</Icon>
 			<Name>LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_NAME</Name>
 			<Description>LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_DESCRIPTION</Description>
 			<SortIndex>10</SortIndex>
@@ -101,7 +101,7 @@
 			<CivilizationType>CIVILIZATION_LIELLA</CivilizationType>
 			<LeaderType>LEADER_TANG_KEKE</LeaderType>
 			<Type>TRAIT_LEADER_ABILITY3_TANG_KEKE</Type>
-			<Icon>ICON_LEADER_TANG_KEKE</Icon>
+			<Icon>ICON_LEADER_TANG_KEKE3</Icon>
 			<Name>LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_NAME</Name>
 			<Description>LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_DESCRIPTION</Description>
 			<SortIndex>20</SortIndex>
@@ -112,7 +112,7 @@
 			<CivilizationType>CIVILIZATION_LIELLA</CivilizationType>
 			<LeaderType>LEADER_TANG_KEKE</LeaderType>
 			<Type>TRAIT_LEADER_ABILITY3_TANG_KEKE</Type>
-			<Icon>ICON_LEADER_TANG_KEKE</Icon>
+			<Icon>ICON_LEADER_TANG_KEKE3</Icon>
 			<Name>LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_NAME</Name>
 			<Description>LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_DESCRIPTION</Description>
 			<SortIndex>20</SortIndex>
@@ -123,7 +123,7 @@
 			<CivilizationType>CIVILIZATION_LIELLA</CivilizationType>
 			<LeaderType>LEADER_TANG_KEKE</LeaderType>
 			<Type>TRAIT_LEADER_ABILITY3_TANG_KEKE</Type>
-			<Icon>ICON_LEADER_TANG_KEKE</Icon>
+			<Icon>ICON_LEADER_TANG_KEKE3</Icon>
 			<Name>LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_NAME</Name>
 			<Description>LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_DESCRIPTION</Description>
 			<SortIndex>20</SortIndex>

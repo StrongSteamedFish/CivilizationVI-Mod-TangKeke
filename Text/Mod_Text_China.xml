@@ -9,6 +9,49 @@
 		<Row Tag="LOC_YUIGAOKA_NAME" Language="zh_Hans_CN">
 			<Text>结丘女子高等学校</Text>
 		</Row>
+
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_01" Language="zh_Hans_CN">
+			<Text>涩谷香音</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_02" Language="zh_Hans_CN">
+			<Text>岚千砂都</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_03" Language="zh_Hans_CN">
+			<Text>平安名堇</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_04" Language="zh_Hans_CN">
+			<Text>叶月恋</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_05" Language="zh_Hans_CN">
+			<Text>涩谷亚里亚</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_06" Language="zh_Hans_CN">
+			<Text>叶月花</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_07" Language="zh_Hans_CN">
+			<Text>沙耶</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_08" Language="zh_Hans_CN">
+			<Text>理事长</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_09" Language="zh_Hans_CN">
+			<Text>七海</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_10" Language="zh_Hans_CN">
+			<Text>八重</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_11" Language="zh_Hans_CN">
+			<Text>九</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_12" Language="zh_Hans_CN">
+			<Text>秋叶原记者（全国的LoveLive!大会唯一主持人）</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_13" Language="zh_Hans_CN">
+			<Text>柊摩央</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_14" Language="zh_Hans_CN">
+			<Text>圣泽悠奈</Text>
+		</Row>
 		<!--文明&文明能力-->
 		<Row Tag="LOC_CIVILIZATION_LIELLA_NAME" Language="zh_Hans_CN">
 			<Text>Liella!</Text>
@@ -33,7 +76,7 @@
 			<Text>上海卷王</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_ABILITY_TANG_KEKE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>无法获得[ICON_TechBoosted]尤里卡。每个回合开始时将会获得等同于文明总[ICON_Culture]文化值产出30%的[ICON_Science]科技值，获得科技将以游戏内信息的方式提示在右上部分[COLOR:255,136,204,255]（注意：这可能会让实际研究完一项科技使用的回合数小于你在科技树面板中看到的预计回合数）[ENDCOLOR]。建造School Idol Project、学院和工业区时+100%[ICON_Production]生产力。</Text>
+			<Text>无法获得[ICON_TechBoosted]尤里卡。每个回合开始时将会获得等同于文明总[ICON_Culture]文化值产出30%的[ICON_Science]科技值，获得科技将以游戏内信息的方式提示在右上部分（[COLOR_RED]注意：[ENDCOLOR]这可能会让实际研究完一项科技使用的回合数小于你在科技树面板中看到的预计回合数）。建造School Idol Project、学院和工业区时+100%[ICON_Production]生产力。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_NAME" Language="zh_Hans_CN">
 			<Text>八达岭</Text>
@@ -194,14 +237,156 @@
 		<Row Tag="LOC_GREATWORK_LIELLA_RECORD19_NAME" Language="zh_Hans_CN">
 			<Text>この街でいまキミと</Text>
 		</Row>
-		<!--领袖介绍&领袖外交-->
+		
+		<!--文明介绍-->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIELLA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>由结丘女子高等学校的五位学生组成的学园偶像团体。其团名Liella!由法语的lier（连结）与来自意大利语的音乐术语brillante（内心闪耀的）组合而成，寓意“现在还是很小的星星，但如果将内心的闪耀相连，就一定可以成为Superstar”。</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LIELLA_LOCATION" Language="zh_Hans_CN">
+			<Text>二次元</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LIELLA_SIZE" Language="zh_Hans_CN">
+			<Text>未知</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LIELLA_POPULATION" Language="zh_Hans_CN">
+			<Text>5人（？）</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LIELLA_CAPITAL" Language="zh_Hans_CN">
+			<Text>结丘女子高等学校</Text>
+		</Row>
+		<!--领袖介绍&领袖外交&特色议程-->
+		<Row Tag="LOC_AGENDA_TANG_KEKE_NAME" Language="zh_Hans_CN">
+			<Text>一起做学园偶像！</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TANG_KEKE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>专注于[ICON_Culture]文化值产出。喜欢同样专注于[ICON_Culture]文化且拥有很多[ICON_Citizen]伟人的文明。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_TANG_KEKE" Language="zh_Hans_CN">
+			<Text>可可很高兴你拥有大量的文化值和伟人。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_TANG_KEKE_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您满足了唐可可的议程——一起做学园偶像！）</Text>
+		</Row>
 		<Row Tag="LOC_LEADERS_PAGE_LEADER_TANG_KEKE_QUOTE" Language="zh_Hans_CN">
-			<Text>太好听了吧！你唱歌真的好好听啊，简直就是天籁！</Text>
+			<Text>呜～～～～太好听了吧！你唱歌真的好好听啊，简直就是天籁！</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_TANG_KEKE" Language="zh_Hans_CN">
 			<Text>上海卷王，中国姛（划掉）。因为憧憬学园偶像，想要成为学园偶像而从中国上海来到日本。在遇见涩谷香音后邀请她成为学园偶像，并组建了Liella!。</Text>
 		</Row>
-
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANG_KEKE_TITLE" Language="zh_Hans_CN">
+			<Text>唐可可</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANG_KEKE_SUBTITLE" Language="zh_Hans_CN">
+			<Text>中国姛</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANG_KEKE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>因为憧憬学园偶像而从中国上海来到了母亲的故乡——日本，成为了结丘女子高等学校的一名一年级学生。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANG_KEKE_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>来日本最大的愿望是想要成为学园偶像，希望自己能像其他学园偶像一样，通过歌声把自己的心情和感受自由地唱出来。开学之后一直在寻找一起做学园偶像的成员。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANG_KEKE_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>在遇见涩谷香音后邀请她成为学园偶像，并组建了Liella!。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANG_KEKE_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>性格开朗、热情，爱笑也爱哭，对待喜欢的事物直截了当且有毅力，遇到困难不放弃。但在关键时刻也会因为压力而紧张。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANG_KEKE_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>唐可可学习很好。因为学园偶像活动，上课经常睡觉，但即使如此也没有什么问题。这让唐可可的科技即使无法获取正常的科技的加速依旧能够跟上步伐。唐可可并不擅长运动，她的单位都因此而受到减益效果，但对学园偶像的热爱让她克服了困难，努力提高自己的体能满足学园偶像舞蹈的体力需求，并且在听到好听的歌声后能够爆发惊人的体力！</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANG_KEKE_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>唐可可需要专注与文化和音乐巨作的获取。早期就能够通过文明能力获得强力的音乐巨作来保证自己的文化和科技。同时也能够借助自己的能力让单位在自己领土上拥有高速的移动和战斗力，在保证国防力量的情况下大力发展文化以谋求文化胜利！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>一起做学园偶像！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>对不起，可可还需要考虑一下我们之间的关系……</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>我们一起做学园偶像好不好嘛？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>真爱，这是真爱啊！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>为什么要跑嘛（俺様はHomo）？人家只是想和你一起做学园偶像而已呀！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>对学园偶像的「心意」我不会输给任何人的！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>你亵渎了学园偶像！中午到天台来！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>八达岭~~</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>八达岭~~</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>谢谢你！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>对不起，可可不能收下这些。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>可可能去你家练习吗？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>明明之前还是只小具足虫(/￣皿￣)○～</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>我要代表所有学园偶像谴责你！[NEWLINE]（唐可可谴责了你）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>初次见面，米纳桑，我是唐可可哟。请叫我可可。不是瞌瞌睡睡的那个瞌瞌哟！快起来！Wake up! 可可一直憧憬着学园偶像，从上海来到了日本！喜欢的东西是巧克力香蕉和那不勒斯意面，还有学园——偶像！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>要来可可家练习吗？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>请多指教！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>要和可可交换交换家庭住址吗？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>你好！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>你唱歌真的好好听啊，简直就是天籁！我刚才，听到你唱歌了。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>我们以后一起唱好不好？一起唱！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>Nice Idea！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>罪不可恕！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>放过可可吧~</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>欢迎来参观！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>对不起，可可还没准备好……</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>可以借过一下吗？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>你不要再靠近可可这边了！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TANG_KEKE_ANY}</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_TANG_KEKE_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TANG_KEKE_ANY}</Text>
+		</Row>
 		<!--MOD介绍，打包后添加到.modinfo文件中-->
 		<Row Tag="LOC_TANGKEKE_MOD_NAME" Language="zh_Hans_CN">
 			<Text>[COLOR:ResCultureLabelCS]LoveLive!Superstar!![ENDCOLOR]——[COLOR:199,188,168,255]唐可可[ENDCOLOR]</Text>
