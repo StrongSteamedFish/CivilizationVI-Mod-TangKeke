@@ -44,7 +44,7 @@
 			<Text>九</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_12" Language="zh_Hans_CN">
-			<Text>秋叶原记者（全国的LoveLive!大会唯一主持人）</Text>
+			<Text>秋叶原记者</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_13" Language="zh_Hans_CN">
 			<Text>柊摩央</Text>
@@ -76,7 +76,7 @@
 			<Text>上海卷王</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_ABILITY_TANG_KEKE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>无法获得[ICON_TechBoosted]尤里卡。每个回合开始时将会获得等同于文明总[ICON_Culture]文化值产出30%的[ICON_Science]科技值，获得科技将以游戏内信息的方式提示在右上部分（[COLOR_RED]注意：[ENDCOLOR]这可能会让实际研究完一项科技使用的回合数小于你在科技树面板中看到的预计回合数）。建造School Idol Project、学院和工业区时+100%[ICON_Production]生产力。</Text>
+			<Text>获得的[ICON_TechBoosted]尤里卡百分比从原基础上减少25个百分点（不足25%减为0）。每个回合开始时将会获得等同于文明总[ICON_Culture]文化值产出30%的[ICON_Science]科技值，获得科技将以游戏内信息的方式提示在右上部分（[COLOR_RED]注意：[ENDCOLOR]这可能会让实际研究完一项科技使用的回合数小于你在科技树面板中看到的预计回合数）。建造School Idol Project、学院和工业区时+100%[ICON_Production]生产力。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_NAME" Language="zh_Hans_CN">
 			<Text>八达岭</Text>

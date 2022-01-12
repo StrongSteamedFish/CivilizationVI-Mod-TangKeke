@@ -234,10 +234,6 @@
 			<m_ObjectName text="ICON_UNIT_SCHOOL_IDOL_PORTRAIT95"/>
 		</Element>
 		<Element>
-			<m_EntryID text="IMG_LEADER_TANG_KEKE_LOADING_BACKGROUND"/>
-			<m_ObjectName text="IMG_LEADER_TANG_KEKE_LOADING_BACKGROUND"/>
-		</Element>
-		<Element>
 			<m_EntryID text="ICON_LEADER_TANG_KEKE2256"/>
 			<m_ObjectName text="ICON_LEADER_TANG_KEKE2256"/>
 		</Element>
@@ -320,6 +316,10 @@
 		<Element>
 			<m_EntryID text="ICON_LIELLA_RECORD64"/>
 			<m_ObjectName text="ICON_LIELLA_RECORD64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_LEADER_TANG_KEKE_LOADING_BACKGROUND"/>
+			<m_ObjectName text="IMG_LEADER_TANG_KEKE_LOADING_BACKGROUND"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
