@@ -5,7 +5,7 @@
     <Name>LOC_TANGKEKE_MOD_NAME</Name>
     <Guid>cb3774a8-896a-42b2-a64a-229e270d98bb</Guid>
     <ProjectGuid>6da02d05-1780-46a2-ab3c-1964d8caae79</ProjectGuid>
-    <ModVersion>1</ModVersion>
+    <ModVersion>2</ModVersion>
     <Teaser>LOC_TANGKEKE_MOD_TEASER</Teaser>
     <Description>LOC_TANGKEKE_MOD_DESCRIPTION</Description>
     <Authors>zheng</Authors>
