@@ -14,6 +14,7 @@
 [h1]信息板[/h1]
 [list]
 [*]MOD源文件可以在[url=https://github.com/StrongSteamedFish/CivilizationVI-Mod-TangKeke]这里[/url]下载。
+[*]特色单位的「学园偶像」的模型和可用表演区域不能高亮问题已经修复！
 [/list]
 
 [h1]MOD介绍[/h1]

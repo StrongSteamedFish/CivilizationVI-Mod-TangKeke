@@ -5,7 +5,7 @@
     <Name>LOC_TANGKEKE_MOD_NAME</Name>
     <Guid>cb3774a8-896a-42b2-a64a-229e270d98bb</Guid>
     <ProjectGuid>6da02d05-1780-46a2-ab3c-1964d8caae79</ProjectGuid>
-    <ModVersion>2</ModVersion>
+    <ModVersion>3</ModVersion>
     <Teaser>LOC_TANGKEKE_MOD_TEASER</Teaser>
     <Description>LOC_TANGKEKE_MOD_DESCRIPTION</Description>
     <Authors>zheng</Authors>
@@ -18,7 +18,7 @@
     <AssemblyName>TangKeke</AssemblyName>
     <RootNamespace>TangKeke</RootNamespace>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateText id="Mod_Text"><File>Text/Mod_Text_China.xml</File></UpdateText><UpdateDatabase id="Mod_Config"><File>Mod_Config.xml</File></UpdateDatabase><UpdateColors id="Mod_Colors"><File>Mod_Colors.xml</File></UpdateColors><UpdateIcons id="Mod_Icons"><File>Mod_Icons.xml</File></UpdateIcons><UpdateArt id="Mod_Arts"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateText id="ModText"><File>Text/Mod_Text_China.xml</File></UpdateText><UpdateDatabase id="Mod_GameData"><Properties><LoadOrder>99999</LoadOrder></Properties><File>Mod_Leaders.xml</File><File>Mod_Civilizations.xml</File><File>Mod_Districts.sql</File><File>Mod_Units.sql</File><File>Mod_Civilization_Abilities.sql</File><File>Mod_Leader_Abilities.sql</File><File>Mod_Buildings.sql</File><File>Mod_Agenda.sql</File><File>Mod_GreatPeople.sql</File><File>Mod_GreatPersonIndividuals.sql</File><File>Mod_GreatWorks.sql</File><File>Mod_MomentIllustrations.sql</File></UpdateDatabase><UpdateColors id="Mod_Colors"><File>Mod_Colors.xml</File></UpdateColors><ReplaceUIScript id="Mod_ReplaceUI_UnitPanel"><Properties><LoadOrder>99999</LoadOrder><LuaContext>UnitPanel</LuaContext><LuaReplace>UnitPanel_TangKeke.lua</LuaReplace></Properties></ReplaceUIScript><AddGameplayScripts id="Mod_GameplayScripts"><File>Leader_Abilities_GetTechFromCulture_Gameplay.lua</File><File>Mod_GrantGreatPersonLiella.lua</File><File>Mod_ExposedMembers.lua</File></AddGameplayScripts><ReplaceUIScript id="Mod_ReplaceUI_StatusMessagePanel"><Properties><LoadOrder>99999</LoadOrder><LuaContext>StatusMessagePanel</LuaContext><LuaReplace>Leader_Abilities_GetTechFromCulture_UI.lua</LuaReplace></Properties></ReplaceUIScript><AddUserInterfaces id="Mod_UI"><Properties><LoadOrder>99999</LoadOrder><Context>InGame</Context></Properties><File>Leader_Abilities_GrantUnitAbilitiesFromMusic.xml</File></AddUserInterfaces><UpdateIcons id="Mod_Icons"><File>Mod_Icons.xml</File></UpdateIcons><UpdateArt id="Mod_Arts"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateText id="ModText"><File>Text/Mod_Text_China.xml</File></UpdateText><UpdateDatabase id="Mod_GameData"><Properties><LoadOrder>99999</LoadOrder></Properties><File>Mod_Leaders.xml</File><File>Mod_Civilizations.xml</File><File>Mod_Districts.sql</File><File>Mod_Units.sql</File><File>Mod_Civilization_Abilities.sql</File><File>Mod_Leader_Abilities.sql</File><File>Mod_Buildings.sql</File><File>Mod_Agenda.sql</File><File>Mod_GreatPeople.sql</File><File>Mod_GreatPersonIndividuals.sql</File><File>Mod_GreatWorks.sql</File><File>Mod_MomentIllustrations.sql</File></UpdateDatabase><UpdateColors id="Mod_Colors"><File>Mod_Colors.xml</File></UpdateColors><ReplaceUIScript id="Mod_ReplaceUI_UnitPanel"><Properties><LoadOrder>99999</LoadOrder><LuaContext>UnitPanel</LuaContext><LuaReplace>UnitPanel_TangKeke.lua</LuaReplace></Properties></ReplaceUIScript><AddGameplayScripts id="Mod_GameplayScripts"><File>Leader_Abilities_GetTechFromCulture_Gameplay.lua</File><File>Mod_GrantGreatPersonLiella.lua</File><File>Mod_ExposedMembers.lua</File></AddGameplayScripts><ReplaceUIScript id="Mod_ReplaceUI_StatusMessagePanel"><Properties><LoadOrder>99999</LoadOrder><LuaContext>StatusMessagePanel</LuaContext><LuaReplace>Leader_Abilities_GetTechFromCulture_UI.lua</LuaReplace></Properties></ReplaceUIScript><AddUserInterfaces id="Mod_UI"><Properties><LoadOrder>99999</LoadOrder><Context>InGame</Context></Properties><File>Leader_Abilities_GrantUnitAbilitiesFromMusic.xml</File></AddUserInterfaces><UpdateIcons id="Mod_Icons"><File>Mod_Icons.xml</File></UpdateIcons><UpdateArt id="Mod_Arts"><File>(Mod Art Dependency File)</File></UpdateArt><ReplaceUIScript id="Mod_ReplaceUI_SelectedUnit"><Properties><LuaContext>SelectedUnit</LuaContext><LuaReplace>SelectedUnit_TangKeke.lua</LuaReplace><LoadOrder>99999</LoadOrder></Properties></ReplaceUIScript></InGameActions>]]></InGameActionData>
     <Homepage>https://github.com/StrongSteamedFish/CivilizationVI-Mod-TangKeke</Homepage>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
@@ -102,6 +102,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Mod_Units.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="SelectedUnit_TangKeke.lua">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Text\Mod_Text_China.xml">
