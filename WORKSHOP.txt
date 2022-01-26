@@ -1,3 +1,10 @@
+[h1]最新更新说明/Latest update instructions[/h1]
+[list]
+[*]支持了英文和繁體中文。
+[*]Support English and traditional Chinese. (English MOD introduction page will be updated soon.)
+[/list]
+
+
 [h1]声明[/h1]
 [list]
 [*]应拉拉人朋友要求做的MOD，本人并不是拉拉人，有什么设计的不合理的地方不喜勿喷。
@@ -7,12 +14,12 @@
 [*]图片均为官方设定图抠图或自制。
 
 [*]音乐暂不考虑添加。
-
-[*]英文水平有限，暂时不支持中文以外的语言。
 [/list]
 
 [h1]信息板[/h1]
 [list]
+[*]MOD支持的语言：简体中文、繁體中文、English。
+[*]MOD support language：Simplified Chinese, Traditional Chinese, English.
 [*]MOD源文件可以在[url=https://github.com/StrongSteamedFish/CivilizationVI-Mod-TangKeke]这里[/url]下载。
 [*]特色单位的「学园偶像」的模型和可用表演区域不能高亮问题已经修复！
 [/list]

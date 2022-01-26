@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Mod_Text_enUS -->
+<!-- Author: zheng -->
+<!-- DateCreated: 1/18/2022 9:41:08 AM -->
+<GameData>
+	<LocalizedText>
+		<!--City name & Citizen name-->
+		<Row Tag="LOC_YUIGAOKA_NAME" Language="en_US">
+			<Text>Yuigaoka Private Girls High School</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_01" Language="en_US">
+			<Text>Kanon Shibuya</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_02" Language="en_US">
+			<Text>Chisato Arashi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_03" Language="en_US">
+			<Text>Sumire Heanna</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_04" Language="en_US">
+			<Text>Ren Hazuki</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_05" Language="en_US">
+			<Text>Aria Shibuya</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_06" Language="en_US">
+			<Text>Hana Hazuki</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_07" Language="en_US">
+			<Text>Saya</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_08" Language="en_US">
+			<Text>Chairman of the school</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_09" Language="en_US">
+			<Text>Nanami</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_10" Language="en_US">
+			<Text>Yae</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_11" Language="en_US">
+			<Text>Kyu</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_12" Language="en_US">
+			<Text>Reporter from Akihabara</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_13" Language="en_US">
+			<Text>Mao Hiiragi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_14" Language="en_US">
+			<Text>Yuuna Hijirisawa</Text>
+		</Row>
+		<!--Civilization & Civilization Ability-->
+		<Row Tag="LOC_CIVILIZATION_LIELLA_NAME" Language="en_US">
+			<Text>Liella!</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LIELLA_DESCRIPTION" Language="en_US">
+			<Text>Liella!</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LIELLA_ADJECTIVE" Language="en_US">
+			<Text>Liella!'s </Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ABILITY_LIELLA_NAME" Language="en_US">
+			<Text>Liella!</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ABILITY_LIELLA_DESCRIPTION" Language="en_US">
+			<Text>
+				Whenever you complete your civilization's first [ICON_CultureLarge] civic from a new era of discovery, instantly grants a [ICON_GreatWork_Music] Liella! Album. School Idol: Liella!'s unique Civillian unit that reaplaces the Rock Band. Unlocked by The Enlightenment. Cheaper to trained and purchased. Can choose from any possible promotion instead of receiving a random promotion. Concerts performed in a peace city get lower [ICON_Tourism] Tourism.  Receive a Liella! Album when disbanded.
+			</Text>
+		</Row>
+		<!--Leader & Leader Ability-->
+		<Row Tag="LOC_LEADER_TANG_KEKE_NAME" Language="en_US">
+			<Text>[COLOR:199,188,168,255]Keke Tang[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ABILITY_TANG_KEKE_NAME" Language="en_US">
+			<Text>The Involution King of Shanghai</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ABILITY_TANG_KEKE_DESCRIPTION" Language="en_US">
+			<Text>
+				Eurekas provides 25% less of the [ICON_TechBoosted] Science for technologies than . Cities' [ICON_Culture] Culture provides 30% [ICON_Science] Science. The Science it provides is shown at the top-right corner. (This might fewer the turns you need to complete the technology than the Technology Tree shows.) +100% [ICON_Production] Production when building School Idol Project, Campus and Industrial Zone.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_NAME" Language="en_US">
+			<Text>Flop.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_DESCRIPTION" Language="en_US">
+			<Text>All land combat units -5 [ICON_Strength] Combat Strength. All naval combat units -1[ICON_Movement] Movement.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_REDUCE_COMBAT_FROM_TANGKEKE_ABILITY2_NAME" Language="en_US">
+			<Text>{LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_REDUCE_MOVEMENT_FROM_TANGKEKE_ABILITY2_NAME" Language="en_US">
+			<Text>{LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_REDUCE_COMBAT_FROM_TANGKEKE_ABILITY2_DESCRIPTION" Language="en_US">
+			<Text>{LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_NAME}：[COLOR_RED]-5[ENDCOLOR][ICON_Strength] Combat Strength.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_REDUCE_MOVEMENT_FROM_TANGKEKE_ABILITY2_DESCRIPTION" Language="en_US">
+			<Text>{LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_NAME}：[COLOR_RED]-1[ENDCOLOR][ICON_Movement] Movement.</Text>
+		</Row>
+		<Row Tag="LOC_COMBAT_PREVIEW_Modifier_reduce_combat_from_tkk_ab2" Language="en_US">
+			<Text>[COLOR_RED]{1_Value}[ENDCOLOR] [ICON_Strength] Combat Strength from {LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_NAME" Language="en_US">
+			<Text>The girl with the magnificent voice...</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_DESCRIPTION" Language="en_US">
+			<Text>Units within the borders of cities with Great Work of Music gain +10 [ICON_Strength] Combat Strenth and +2 [ICON_Movement] Movement when your turn starts.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GRANT_COMBAT_FROM_TANGKEKE_ABILITY3_NAME" Language="en_US">
+			<Text>{LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GRANT_COMBAT_FROM_TANGKEKE_ABILITY3_DESCRIPTION" Language="en_US">
+			<Text>{LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_NAME}：+10[ICON_Strength] Combat Strength.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GRANT_MOVEMENT_FROM_TANGKEKE_ABILITY3_NAME" Language="en_US">
+			<Text>{LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GRANT_MOVEMENT_FROM_TANGKEKE_ABILITY3_DESCRIPTION" Language="en_US">
+			<Text>{LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_NAME}：+2[ICON_Movement] Movement.</Text>
+		</Row>
+		<Row Tag="LOC_COMBAT_PREVIEW_Modifier_grant_combat_from_tkk_ab3" Language="en_US">
+			<Text>+{1_Value} [ICON_Strength] Combat Strength from {LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_NAME}.</Text>
+		</Row>
+		<Row Tag="LOC_TANG_KEKE_GRANT_TECH_MESSAGE_1" Language="en_US">
+			<Text>Grant </Text>
+		</Row>
+		<Row Tag="LOC_TANG_KEKE_GRANT_TECH_MESSAGE_2" Language="en_US">
+			<Text> [ICON_Science] Science from your civilization's [ICON_Culture] Culture.</Text>
+		</Row>
+		<!--UD-->
+		<Row Tag="LOC_TRAIT_DISTRICT_SCHOOL_IDOL_PROJECT_NAME" Language="en_US">
+			<Text>{LOC_DISTRICT_SCHOOL_IDOL_PROJECT_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_DISTRICT_SCHOOL_IDOL_PROJECT_DESCRIPTION" Language="en_US">
+			<Text>{LOC_DISTRICT_SCHOOL_IDOL_PROJECT_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SCHOOL_IDOL_PROJECT_NAME" Language="en_US">
+			<Text>School Idol Project</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SCHOOL_IDOL_PROJECT_DESCRIPTION" Language="en_US">
+			<Text>
+				The School Idol Project is a unique district to Liella! for school idols. Replaces the Theater Square district. In addition to the original adjacency bonus, +2 Culture for adjacent City Center, or Coast and Lake tiles, or rivers. Provides +1 [ICON_Amenities] Amentity. +2 Appeal to adjacent tiles. +3 [ICON_GreatWork_Music] Great Work of Music slots. Automatically themed when all slots are filled.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SCHOOL_IDOL_PORJECT_RIVER_CULTURE" Language="en_US">
+			<Text>+{1_num} [ICON_Culture] Culture bones for adjacent rivers.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SCHOOL_IDOL_PORJECT_COAST_CULTURE" Language="en_US">
+			<Text>+{1_num} [ICON_Culture] Culture bones for adjacant coasts and lakes.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SCHOOL_IDOL_CENTER_NAME" Language="en_US">
+			<Text>School Idol Center</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SCHOOL_IDOL_CENTER_DESCRIPTION" Language="en_US">
+			<Text>A building unique to Liella!. Automatically built after construction of School Idol Project. +3 Great Work of Music Slots. Automatically themed when all slots are filled.</Text>
+		</Row>
+		<Row Tag="LOC_SCHOOL_IDOL_AUTO_THEMING" Language="en_US">
+			<Text>Automatically themed when all slots are filled.</Text>
+		</Row>
+		<!--UU-->
+		<Row Tag="LOC_TRAIT_UNIT_SCHOOL_IDOL_NAME" Language="en_US">
+			<Text>{LOC_UNIT_SCHOOL_IDOL_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_SCHOOL_IDOL_DESCRIPTION" Language="en_US">
+			<Text>{LOC_UNIT_SCHOOL_IDOL_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SCHOOL_IDOL_NAME" Language="en_US">
+			<Text>School Idol</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SCHOOL_IDOL_DESCRIPTION" Language="en_US">
+			<Text>Liella!'s unique Civillian unit that reaplaces the Rock Band. Unlocked by The Enlightenment. Cheaper to trained and purchased ([ICON_Faith]). Can choose from any possible promotion instead of receiving a random promotion. Concerts performed in a peace city get lower [ICON_Tourism] Tourism.  Receive a [ICON_GreatWork_Music] Liella! Album when disbanded.</Text>
+		</Row>
+		<!--Great People & Records-->
+		<Row Tag="LOC_GREAT_PERSON_CLASS_LIELLA_NAME" Language="en_US">
+			<Text>Liella!</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GREAT_PERSON_LIELLA_NAME" Language="en_US">
+			<Text>Liella! Album</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GREAT_PERSON_LIELLA_DESCRIPTION" Language="en_US">
+			<Text>
+				Grant a [ICON_GreatWork_Music] Great Work of music made by [ICON_GreatMusician] Liella! when activated. Visit the Great People panel to learn more, and track your progress.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_LIELLA_RECORD_NAME" Language="en_US">
+			<Text>Liella!</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD1_NAME" Language="en_US">
+			<Text>Nonfiction!!</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD2_NAME" Language="en_US">
+			<Text>Starlight Prologue</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD3_NAME" Language="en_US">
+			<Text>Dream Rainbow</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD4_NAME" Language="en_US">
+			<Text>Mirai Yohou Hallelujah!</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD5_NAME" Language="en_US">
+			<Text>Tiny Stars</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD6_NAME" Language="en_US">
+			<Text>1.2.3!</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD7_NAME" Language="en_US">
+			<Text>Wish Song</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD8_NAME" Language="en_US">
+			<Text>Dakara Bokura wa Narasunda!</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD9_NAME" Language="en_US">
+			<Text>Dreaming Energy</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD10_NAME" Language="en_US">
+			<Text>Wish Song</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD11_NAME" Language="en_US">
+			<Text>Hajimari wa Kimi no Sora</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD12_NAME" Language="en_US">
+			<Text>Departure</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD13_NAME" Language="en_US">
+			<Text>Primary</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD14_NAME" Language="en_US">
+			<Text>Anniversary (Keke Tang Ver.)</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD15_NAME" Language="en_US">
+			<Text>Ringing! (Keke Tang Ver.)</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD16_NAME" Language="en_US">
+			<Text>START!! True dreams</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD17_NAME" Language="en_US">
+			<Text>LIVE with a smile! (Liella! Ver.)</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD18_NAME" Language="en_US">
+			<Text>Mirai wa Kaze no You ni</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD19_NAME" Language="en_US">
+			<Text>Kono Machi de Ima Kimi to</Text>
+		</Row>
+
+		<!--Introduction to civilization-->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIELLA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>A school idol group formed by 5 students from Yuigaoka Girls' High School. The name, Liella!, is based off of French word "relier" (connect) and Italian music term "brillante", which implies that, even though they are just Tiny Stars, if they were connected and tied together, they are bound to be Super Stars.</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LIELLA_LOCATION" Language="en_US">
+			<Text>Anime</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LIELLA_SIZE" Language="en_US">
+			<Text>Unknown</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LIELLA_POPULATION" Language="en_US">
+			<Text>5 (?)</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LIELLA_CAPITAL" Language="en_US">
+			<Text>Yuigaoka Private Girls High School</Text>
+		</Row>
+		<!--Leader introduction & Leader Diplomacy & Featured Agenda-->
+		<Row Tag="LOC_AGENDA_TANG_KEKE_NAME" Language="en_US">
+			<Text>Sing with me... As school idols!</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TANG_KEKE_DESCRIPTION" Language="en_US">
+			<Text>Focus on [ICON_Culture] Culture. Like civilizations that also focus on [ICON_Culture] Culture with many [ICON_Citizen] Great People.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_TANG_KEKE" Language="en_US">
+			<Text>Keke is pleased with your high output of Culture and large number of Great People.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_TANG_KEKE_REASON_ANY" Language="en_US">
+			<Text>(You have satisfied Keke Tang's agenda, Sing with me... As school idols!)</Text>
+		</Row>
+		<Row Tag="LOC_LEADERS_PAGE_LEADER_TANG_KEKE_QUOTE" Language="en_US">
+			<Text>Woo...Magnificent! Now that I've heard your voice... Your voice is like a gift from the heavens.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_TANG_KEKE" Language="en_US">
+			<Text>The involution king of Shanghai. Lesbian (not).  She loves school idols, so she came to Japan from Shanghai. After she met Kanon Shibuya, Keke invited her to be school idols together. And later, they formed the school idol group, Liella!, with 3 other members.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANG_KEKE_TITLE" Language="en_US">
+			<Text>Keke Tang</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANG_KEKE_SUBTITLE" Language="en_US">
+			<Text>Lesbian</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANG_KEKE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>She loves school idols, so she came to Japan, her mother's homeland, from Shanghai, and became a first-year student in the Yuigaoka Private Girls High School.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANG_KEKE_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>The biggest wish of coming to Japan is to become a school idol and song for all. She has been looking for "girls with magnificent voice" to be school idols together since the term started.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANG_KEKE_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>After she met Kanon Shibuya, Keke invited her to be school idols together. And later, they formed the school idol group, Liella!, with 3 other members.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANG_KEKE_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>A fun-loving and energetic optimist, Keke holds that the most important things in life are passion and a smiling face. But she could be anxious because of stress.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANG_KEKE_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Keke is really good at studying. So it does not matter if she sleeps in class because of school idol activities. This allows Keke to keep up the pace of the Science even though she get less Science boost with Eurekas. Keke is terrible at sports so that all of her units gets a debuff from that. But the love of school idols makes her overcome all the problems. She practices a lot to make herself strong enough to be a school idol. And when she hears a "Magnificent Voice", she can get an amazing burst of energy.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANG_KEKE_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Keke Tang should focus on Culture and getting Great Works of Music. During the early eras, she could get Great Works by her civilization's unique ability. Meanwhile, this makes her units have higher Movement and Combat. Make sure you have enough army to protect yourself and then focus on Culture to achieve your great success!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>Let's all best our do as school idols!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>Sorry... Keke still needs to think about this...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>I would love to be school idols with you! Why don't you give it a try?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>Love! This is truly love!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>Why? I just want to be a school idol with you...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>Keke's Heart of being a school idol won't lose to anyone!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>This is absolutely insulting to school idols! Blasphemy! Get your ass to the roof at lunchtime... please.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>Flop~</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>Flop~</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>Thank you!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>Sorry... Keke cannot take this...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>Can Keke practice dancing at your place?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>Says the small isopad who was chickening out...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>I shall punish you on behalf of all the school idols! (Denounces You)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>Nice to meet you, everyone! I'm Tang Keke! Please call me Keke. Hey, it's time to wa-Wake up! Get up! Waaaaake up! Keke love school idols, so I came here from Shanghai! My favorite things are... Chocolate-covered bananas and napolitan pasta! And schoooooooool idols!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>Wanna practice singing at Keke's place?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>Nice to meet you!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>You want to exchange your home address with Keke's?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>Nice to meet you!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>Woo...Magnificent! Now that I've heard your voice... Your voice is like a gift from the heavens.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>Please, sing with me!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>Nice Idea！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>You jerkface will not get away with this...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>Please leave Keke alone.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>Welcome to the Show!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>Sorry, Keke has not prepared for this...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>Could you excuse Keke for a sec?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>Stop going any closer to Keke!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TANG_KEKE_ANY}</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_TANG_KEKE_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TANG_KEKE_ANY}</Text>
+		</Row>
+		<!--MOD introduce, add to '.modinfo' file after packaging-->
+		<!--
+    <Text id="LOC_TANGKEKE_MOD_NAME">
+      <en_US>[COLOR:ResCultureLabelCS]LoveLive!Superstar!![ENDCOLOR] ---- [COLOR:199,188,168,255]Keke Tang[ENDCOLOR]</en_US>
+    </Text>
+    <Text id="LOC_TANGKEKE_MOD_TEASER">
+      <en_US>This mod adds a new Leader, Keke Tang, and a new Civilization, Liella!</en_US>
+    </Text>
+    <Text id="LOC_TANGKEKE_MOD_DESCRIPTION">
+      <en_US>[COLOR:199,188,168,255]Keke Tang[ENDCOLOR], the Involution King of Shanghai, Lesbian (not). She loves school idols, so she came to Japan, her mother's homeland, from Shanghai, to become one.[NEWLINE][COLOR:ResCultureLabelCS]Liella![ENDCOLOR]: A school idol group formed by 5 students from Yuigaoka Girls' High School. The name, Liella!, is based off of French word "relier" (connect) and Italian music term "brillante", which implies that, even though they are just Tiny Stars, if they were connected and tied together, they are bound to be Super Stars.</en_US>
+    </Text>
+		-->
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Mod_Text_zh_Hant_HK -->
+<!-- Author: zheng -->
+<!-- DateCreated: 1/18/2022 9:42:22 AM -->
+<GameData>
+	<LocalizedText>
+		<!--城市名称&市民名称-->
+		<Row Tag="LOC_YUIGAOKA_NAME" Language="zh_Hant_HK">
+			<Text>結丘女子高等學校</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_01" Language="zh_Hant_HK">
+			<Text>澀谷香音</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_02" Language="zh_Hant_HK">
+			<Text>嵐千砂都</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_03" Language="zh_Hant_HK">
+			<Text>平安名堇</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_04" Language="zh_Hant_HK">
+			<Text>葉月戀</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_05" Language="zh_Hant_HK">
+			<Text>澀谷亞里亞</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_06" Language="zh_Hant_HK">
+			<Text>葉月花</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_07" Language="zh_Hant_HK">
+			<Text>沙耶</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_08" Language="zh_Hant_HK">
+			<Text>理事長</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_09" Language="zh_Hant_HK">
+			<Text>七海</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_10" Language="zh_Hant_HK">
+			<Text>八重</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_11" Language="zh_Hant_HK">
+			<Text>九</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_12" Language="zh_Hant_HK">
+			<Text>秋葉原記者</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_13" Language="zh_Hant_HK">
+			<Text>柊摩央</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIELLA_FEMALE_14" Language="zh_Hant_HK">
+			<Text>聖澤悠奈</Text>
+		</Row>
+		<!--文明&文明能力-->
+		<Row Tag="LOC_CIVILIZATION_LIELLA_NAME" Language="zh_Hant_HK">
+			<Text>Liella!</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LIELLA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>Liella!</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LIELLA_ADJECTIVE" Language="zh_Hant_HK">
+			<Text>Liella!的</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ABILITY_LIELLA_NAME" Language="zh_Hant_HK">
+			<Text>Liella!</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ABILITY_LIELLA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>每當解鎖新時代第1項[ICON_CultureLarge]市政時，自動獲得1張[ICON_GreatWork_Music]Liella！唱片。擁有搖滾樂隊的強力替代：學園偶像，可更早解鎖，擁有更低的價格且可以直接訓練，能夠選擇全部升級而非隨機，但是在處於和平的城市演出時產出的[ICON_Tourism]旅遊業績會降低。學園偶像解散時，自動獲得1張Liella！唱片。</Text>
+		</Row>
+		<!--领袖&领袖能力-->
+		<Row Tag="LOC_LEADER_TANG_KEKE_NAME" Language="zh_Hant_HK">
+			<Text>[COLOR:199,188,168,255]唐可可[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ABILITY_TANG_KEKE_NAME" Language="zh_Hant_HK">
+			<Text>上海卷王</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ABILITY_TANG_KEKE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>獲得的[ICON_TechBoosted]尤里卡百分比從原基礎上減少25個百分點（不足25%減為0）。每個回合開始時將會獲得等同於文明總[ICON_Culture]文化值產出30%的[ICON_Science]科技值，獲得科技將以遊戲內資訊的方式提示在右上部分（[COLOR_RED]注意：[ENDCOLOR]這可能會讓實際研究完一項科技使用的回合數小於你在科技樹面板中看到的預計回合數）。建造School Idol Project、學院和工業區時+100%[ICON_Production]生產力。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_NAME" Language="zh_Hant_HK">
+			<Text>八達嶺</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>所有陸地戰鬥單位-5[ICON_Strength]戰鬥力，海軍戰鬥單位-1[ICON_Movement]移動力。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_REDUCE_COMBAT_FROM_TANGKEKE_ABILITY2_NAME" Language="zh_Hant_HK">
+			<Text>{LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_REDUCE_MOVEMENT_FROM_TANGKEKE_ABILITY2_NAME" Language="zh_Hant_HK">
+			<Text>{LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_REDUCE_COMBAT_FROM_TANGKEKE_ABILITY2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>{LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_NAME}：[COLOR_RED]-5[ENDCOLOR][ICON_Strength]戰鬥力。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_REDUCE_MOVEMENT_FROM_TANGKEKE_ABILITY2_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>{LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_NAME}：[COLOR_RED]-1[ENDCOLOR][ICON_Movement]移動力。</Text>
+		</Row>
+		<Row Tag="LOC_COMBAT_PREVIEW_Modifier_reduce_combat_from_tkk_ab2" Language="zh_Hant_HK">
+			<Text>來自{LOC_TRAIT_LEADER_ABILITY2_TANG_KEKE_NAME}的能力[COLOR_RED]{1_Value}[ENDCOLOR][ICON_Strength]戰鬥力。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_NAME" Language="zh_Hant_HK">
+			<Text>聲音很好聽的同學</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>回合開始時，所有在擁有音樂巨作的城市中的單位獲得+2[ICON_Movement]移動力，戰鬥單位額外獲得+10[ICON_Strength]戰鬥力。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GRANT_COMBAT_FROM_TANGKEKE_ABILITY3_NAME" Language="zh_Hant_HK">
+			<Text>{LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GRANT_COMBAT_FROM_TANGKEKE_ABILITY3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>{LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_NAME}：+10[ICON_Strength]戰鬥力。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GRANT_MOVEMENT_FROM_TANGKEKE_ABILITY3_NAME" Language="zh_Hant_HK">
+			<Text>{LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GRANT_MOVEMENT_FROM_TANGKEKE_ABILITY3_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>{LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_NAME}：+2[ICON_Movement]移動力。</Text>
+		</Row>
+		<Row Tag="LOC_COMBAT_PREVIEW_Modifier_grant_combat_from_tkk_ab3" Language="zh_Hant_HK">
+			<Text>來自{LOC_TRAIT_LEADER_ABILITY3_TANG_KEKE_NAME}的能力+{1_Value}[ICON_Strength]戰鬥力</Text>
+		</Row>
+		<Row Tag="LOC_TANG_KEKE_GRANT_TECH_MESSAGE_1" Language="zh_Hant_HK">
+			<Text>從文明[ICON_Culture]文化值總產出中[NEWLINE]獲得</Text>
+		</Row>
+		<Row Tag="LOC_TANG_KEKE_GRANT_TECH_MESSAGE_2" Language="zh_Hant_HK">
+			<Text>點[ICON_Science]科技值</Text>
+		</Row>
+		<!--文明特色区域-->
+		<Row Tag="LOC_TRAIT_DISTRICT_SCHOOL_IDOL_PROJECT_NAME" Language="zh_Hant_HK">
+			<Text>{LOC_DISTRICT_SCHOOL_IDOL_PROJECT_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_DISTRICT_SCHOOL_IDOL_PROJECT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>{LOC_DISTRICT_SCHOOL_IDOL_PROJECT_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SCHOOL_IDOL_PROJECT_NAME" Language="zh_Hant_HK">
+			<Text>School Idol Project</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SCHOOL_IDOL_PROJECT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>Liella！特色區域，代替劇院廣場區域，是城市中的學園偶像聚集場所。除劇院廣場相鄰加成外，相鄰市中心，海岸與湖泊單元格，河流時獲得大量相鄰加成。提供+1[ICON_Amenities]宜居度，相鄰單元格魅力值+2。建成後自動獲得3個[ICON_GreatWork_Music]音樂巨作槽位，填滿后自動獲得主題化。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SCHOOL_IDOL_PORJECT_RIVER_CULTURE" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Culture] 文化值來自相鄰河流。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SCHOOL_IDOL_PORJECT_COAST_CULTURE" Language="zh_Hant_HK">
+			<Text>+{1_num} [ICON_Culture] 文化值來自相鄰海岸與湖泊儲存格。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SCHOOL_IDOL_CENTER_NAME" Language="zh_Hant_HK">
+			<Text>學園偶像中心</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SCHOOL_IDOL_CENTER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>School Idol Project展示音樂作品的地方。 提供3個音樂巨作槽位，填滿后自動獲得主題化。</Text>
+		</Row>
+		<Row Tag="LOC_SCHOOL_IDOL_AUTO_THEMING" Language="zh_Hant_HK">
+			<Text>填滿后自動獲得主題化。</Text>
+		</Row>
+		<!--文明特色单位-->
+		<Row Tag="LOC_TRAIT_UNIT_SCHOOL_IDOL_NAME" Language="zh_Hant_HK">
+			<Text>{LOC_UNIT_SCHOOL_IDOL_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_SCHOOL_IDOL_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>{LOC_UNIT_SCHOOL_IDOL_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SCHOOL_IDOL_NAME" Language="zh_Hant_HK">
+			<Text>學園偶像</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SCHOOL_IDOL_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>替代搖滾樂隊，解鎖啟蒙運動市政后即可訓練和使用[ICON_Faith]信仰值購買，擁有更低的價格。能夠選擇全部升級而非隨機，但是在處於和平的城市演出時產出的[ICON_Tourism]旅遊業績會降低。解散時將產生1張[ICON_GreatWork_Music]Liella！唱片。</Text>
+		</Row>
+		<!--新增伟人和唱片-->
+		<Row Tag="LOC_GREAT_PERSON_CLASS_LIELLA_NAME" Language="zh_Hant_HK">
+			<Text>Liella!</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GREAT_PERSON_LIELLA_NAME" Language="zh_Hant_HK">
+			<Text>Liella!唱片</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GREAT_PERSON_LIELLA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>啟動時，每個[ICON_GreatMusician]Liella！唱片單位都能產生一個 由Liella！創作的[ICON_GreatWork_Music]音樂巨作。訪問偉人面板瞭解更多，並跟蹤您的進度。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_LIELLA_RECORD_NAME" Language="zh_Hant_HK">
+			<Text>Liella!</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD1_NAME" Language="zh_Hant_HK">
+			<Text>ノンフィクション!!</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD2_NAME" Language="zh_Hant_HK">
+			<Text>Starlight Prologue</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD3_NAME" Language="zh_Hant_HK">
+			<Text>Dream Rainbow</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD4_NAME" Language="zh_Hant_HK">
+			<Text>未来予報ハレルヤ!</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD5_NAME" Language="zh_Hant_HK">
+			<Text>Tiny Stars</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD6_NAME" Language="zh_Hant_HK">
+			<Text>1.2.3!</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD7_NAME" Language="zh_Hant_HK">
+			<Text>Wish Song</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD8_NAME" Language="zh_Hant_HK">
+			<Text>だから僕らは鳴らすんだ!</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD9_NAME" Language="zh_Hant_HK">
+			<Text>Dreaming Energy</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD10_NAME" Language="zh_Hant_HK">
+			<Text>Wish Song</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD11_NAME" Language="zh_Hant_HK">
+			<Text>始まりは君の空</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD12_NAME" Language="zh_Hant_HK">
+			<Text>Departure</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD13_NAME" Language="zh_Hant_HK">
+			<Text>Primary</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD14_NAME" Language="zh_Hant_HK">
+			<Text>Anniversary (唐 可可 Ver.)</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD15_NAME" Language="zh_Hant_HK">
+			<Text>Ringing! (唐 可可 Ver.)</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD16_NAME" Language="zh_Hant_HK">
+			<Text>START!! True dreams</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD17_NAME" Language="zh_Hant_HK">
+			<Text>LIVE with a smile! (Liella! Ver.)</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD18_NAME" Language="zh_Hant_HK">
+			<Text>未来は風のように</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LIELLA_RECORD19_NAME" Language="zh_Hant_HK">
+			<Text>この街でいまキミと</Text>
+		</Row>
+
+		<!--文明介绍-->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIELLA_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>由結丘女子高等學校的五位學生組成的學園偶像團體。其團名Liella！由法語的lier（連結）與來自義大利語的音樂術語brillante（內心閃耀的）組合而成，寓意"現在還是很小的星星，但如果將內心的閃耀相連，就一定可以成為Superstar"。</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LIELLA_LOCATION" Language="zh_Hant_HK">
+			<Text>二次元</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LIELLA_SIZE" Language="zh_Hant_HK">
+			<Text>未知</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LIELLA_POPULATION" Language="zh_Hant_HK">
+			<Text>5人（？）</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LIELLA_CAPITAL" Language="zh_Hant_HK">
+			<Text>結丘女子高等學校</Text>
+		</Row>
+		<!--领袖介绍&领袖外交&特色议程-->
+		<Row Tag="LOC_AGENDA_TANG_KEKE_NAME" Language="zh_Hant_HK">
+			<Text>一起做學園偶像！</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TANG_KEKE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>專注於[ICON_Culture]文化值產出。喜歡同樣專注於[ICON_Culture]文化且擁有很多[ICON_Citizen]偉人的文明。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_TANG_KEKE" Language="zh_Hant_HK">
+			<Text>可可很高興你擁有大量的文化值和偉人。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_TANG_KEKE_REASON_ANY" Language="zh_Hant_HK">
+			<Text>（您滿足了唐可哥的議程——一起做學園偶像！）</Text>
+		</Row>
+		<Row Tag="LOC_LEADERS_PAGE_LEADER_TANG_KEKE_QUOTE" Language="zh_Hant_HK">
+			<Text>呜～～～～太好聽了吧！你唱歌真的好好聽啊，簡直就是天籟！</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_TANG_KEKE" Language="zh_Hant_HK">
+			<Text>上海卷王，中國姛（刪掉）。因為憧憬學園偶像，想要成為學園偶像而從中國上海來到日本。在遇見澀谷香音後邀請她成為學園偶像，並組建了Liella！。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANG_KEKE_TITLE" Language="zh_Hant_HK">
+			<Text>唐可可</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANG_KEKE_SUBTITLE" Language="zh_Hant_HK">
+			<Text>中國姛</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANG_KEKE_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>因為憧憬學園偶像而從中國上海來到了母親的故鄉——日本，成為了結丘女子高等學校的一名一年級學生。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANG_KEKE_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>來日本最大的願望是想要成為學園偶像，希望自己能像其他學園偶像一樣，通過歌聲把自己的心情和感受自由地唱出來。開學之後一直在尋找一起做學園偶像的成員。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANG_KEKE_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>在遇見澀谷香音後邀請她成為學園偶像，並組建了Liella！。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANG_KEKE_CHAPTER_HISTORY_PARA_4" Language="zh_Hant_HK">
+			<Text>性格開朗、熱情，愛笑，對待喜歡的事物直截了當且有毅力，遇到困難不放棄。但在關鍵時刻也會因為壓力而緊張。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANG_KEKE_CHAPTER_CAPSULE_BODY" Language="zh_Hant_HK">
+			<Text>唐可哥學習很好。因為學園偶像活動，上課經常睡覺，但即使如此也沒有什麼問題。這讓唐可哥的科技即使無法獲取正常的科技的加速依舊能夠跟上步伐。唐可哥並不擅長運動，她的單位都因此而受到減益效果，但對學園偶像的熱愛讓她克服了困難，努力提高自己的體能滿足學園偶像舞蹈的體力需求，並且在聽到好聽的歌聲后能夠爆發驚人的體力！</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TANG_KEKE_CHAPTER_DETAILED_BODY" Language="zh_Hant_HK">
+			<Text>唐可可需要專注與文化和音樂巨作的獲取。早期就能夠通過文明能力獲得強力的音樂巨作來保證自己的文化和科技。同時也能夠藉助自己的能力讓單位在自己領土上擁有高速的移動和戰鬥力，在保證國防力量的情況下大力發展文化以謀求文化勝利！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>一起做學園偶像！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>對不起，可哥還需要考慮一下我們之間的關係......</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>我們一起做學園偶像好不好嘛？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>真愛，這是真愛啊！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>為什麼要跑嘛（俺様はHomo）？人家只是想和你一起做學園偶像而已呀！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>對學園偶像的「心意」我不會輸給任何人的！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>你褻瀆了學園偶像！中午到天臺來！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>八達嶺~~</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>八達嶺~~</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>謝謝你！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>對不起，可可不能收下這些。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>可可能去你家練習嗎？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>明明之前還是只小具足蟲(/￣皿￣)○～</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>我要代表所有學園偶像譴責你！[NEWLINE]（唐可可譴責了你）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>初次見面，米納桑，我是唐可哥哟。請叫我可哥。不是瞌瞌睡睡的那個瞌瞌哟！快起來！Wake up! 可哥一直憧憬著學園偶像，從上海來到了日本！喜歡的東西是巧克力香蕉和那不勒斯意面，還有學園——偶像！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>要来可可家練習嗎？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>請多指教！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>要和可可交換交換家庭住址嗎？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>你好！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>你唱歌真的好好聽啊，簡直就是天籟！我剛才，聽到你唱歌了。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>我們以後一起唱好不好？一起唱！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>Nice Idea！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>罪不可恕！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>放過可可吧~</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>歡迎來參觀！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>對不起，可可還沒準備好……</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>可以借過一下嗎？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>你不要再靠近可可這邊了！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TANG_KEKE_ANY}</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_TANG_KEKE_ANY" Language="zh_Hant_HK">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TANG_KEKE_ANY}</Text>
+		</Row>
+		<!--MOD介绍，打包后添加到.modinfo文件中-->
+		<!--
+    <Text id="LOC_TANGKEKE_MOD_NAME">
+      <zh_Hant_HK>[COLOR:ResCultureLabelCS]LoveLive!Superstar!![ENDCOLOR]——[COLOR:199,188,168,255]唐可可[ENDCOLOR]</zh_Hant_HK>
+    </Text>
+    <Text id="LOC_TANGKEKE_MOD_TEASER">
+      <zh_Hant_HK>本MOD添加了：[NEWLINE]一個新的領袖：唐可可。[NEWLINE]一個新的文明：Liella!</zh_Hant_HK>
+    </Text>
+    <Text id="LOC_TANGKEKE_MOD_DESCRIPTION">
+      <zh_Hant_HK>[COLOR:199,188,168,255]唐可可[ENDCOLOR]：上海卷王，中國姛（划掉）。因為憧憬學園偶像，想要成為學園偶像而從中國上海來到日本。[NEWLINE][COLOR:ResCultureLabelCS]Liella![ENDCOLOR]：由結丘女子高等學校的五位學生組成的學園偶像團體。其團名Liella！由法語的lier（連結）與來自義大利語的音樂術語brillante（內心閃耀的）組合而成，寓意「現在還是很小的星星，但如果將內心的閃耀相連，就一定可以成為Superstar”。[NEWLINE][COLOR_RED]本MOD部分介紹文本引用自萌娘百科：https://zh.moegirl.org.cn[ENDCOLOR]</zh_Hant_HK>
+    </Text>
+		-->
+	</LocalizedText>
+</GameData>
