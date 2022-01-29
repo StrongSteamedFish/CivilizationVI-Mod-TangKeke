@@ -1,0 +1,90 @@
+[h1]Latest update instructions[/h1]
+[list]
+[*]Support English and traditional Chinese. (English MOD introduction page will be updated soon.)
+[/list]
+
+
+[h1]Notice[/h1]
+[list]
+[*]Hello there! This is the co-designer AustinF91. Yep, I am the one who asked 欧煌鱼 to make this mod; ) So in this team, he did all the coding part and I did mainly the design part. So if you thought this mod was designed badly or you were having an unpleasant time playing this mod, Please, blame me instead. But if you encountered any bug, just ask 欧煌鱼 to fix it for you. Since he is not that good at English, I'll just BS the whole introduction page. 
+
+[*]First of all, I wanna thank 欧煌鱼 for all the hard work. Thanks to his efficiency, the whole mod was made within a month, during which I even made several changes in the original design. He deserves all the praise and love! Let's give him a round of applause!!!![cheers][cheers][cheers]
+
+[*]All the pics in the mod are from the official websites or made by himself. (Wait, I didn't know you made any pics before???)
+
+[*]We would NOT apply any Liella!'s songs to the mod recently. Reason 1: Copyright Issues. Reason 2: How did you guys add BGMs to your mods? The example code from 2k was so fricking annoying. (Says 欧煌鱼）
+
+[/list]
+
+[h1]Message[/h1]
+[list]
+[*]MOD support language：Simplified Chinese, Traditional Chinese, English.
+[*]You can download the source file [url=https://github.com/StrongSteamedFish/CivilizationVI-Mod-TangKeke]here[/url].
+[*]Oh he fixed a bug. Hooray! I'm not gonna translate this.
+[/list]
+
+[h1]MOD Introduction[/h1]
+
+[b]Leader: Keke Tang[/b]
+[list]
+[*][b]Leader Ability ---- The Involution King of Shanghai[/b]
+    Your Eurekas provides 25% less of the Science for technologies than Normal ones. Cities' Culture provides 30% Science. The Science it provides is shown at the top-right corner [noparse][Note1][/noparse]. +100% Production when building School Idol Project, Campus and Industrial Zone.
+
+[*][b]Leader Ability ---- Flop[/b]
+    All land combat units -5 Combat Strength. All naval combat units -1 Movement.
+
+[*][b]Leader Ability ---- The girl with the magnificent voice...[/b]
+    Units within the borders of cities with Great Work of Music gain +10 Combat Strenth and (+2) Movement when your turn starts [noparse][Note2][/noparse].
+[/list]
+
+[b]Civilization: Liella![/b]
+[list]
+[*][b]Civilization Ability ---- Liella![/b]
+    Whenever you complete your civilization's first civic from a new era of discovery, instantly grants a Liella! Album [noparse][Note3][/noparse]. School Idol: Liella!'s unique Civillian unit that reaplaces the Rock Band. Unlocked by The Enlightenment. Cheaper to trained and purchased. Can choose from any possible promotion instead of receiving a random promotion. Concerts performed in a peace city get lower Tourism. Receive a Liella! Album when disbanded.
+
+[*][b]Civilization Unique District ---- School Idol Project[/b]
+    The School Idol Project is a unique district to Liella! for school idols. Replaces the Theater Square district. In addition to the original adjacency bonus, +2 Culture for adjacent City Center, or Coast and Lake tiles, or rivers. Provides +1 Amentity. +2 Appeal to adjacent tiles. +3 Great Work of Music slots. Automatically themed when all slots are filled.
+
+[*][b]Civilization Unique Unit ---- School Idol[/b]
+    Liella!'s unique Civillian unit that reaplaces the Rock Band. Unlocked by The Enlightenment. Cheaper to trained and purchased. Can choose from any possible promotion instead of receiving a random promotion. Concerts performed in a peace city get lower Tourism.  Receive a Liella! Album when disbanded.
+[/list]
+
+[b]Favored Items and Unique Agenda for AI[/b]
+[list]
+[*]Favored Yields: Culture.
+
+[*]Favored Districts: School Idol Project, Campus, Industrial Zone.
+
+[*]Favored Buildings: Amphitheater, Museum art, Broadcast center.
+
+[*]Favored Wonders: STONEHENGE, Bolshoi Heatre, Sydney Opera House, Hermitage, Broadway, Orszaghaz.
+
+[*]Favored Technologies: Irrigation, Writing, Apprenticeship, Sanitation, Radio, Flight.
+
+[*]Favored Civics: Early Empire, Political Philosophy, Drama And Poetry, The Enlightenment, Opera And Ballet, Cultural Heritage, Natural History, Mass Media.
+
+[*]Favored Units: School Idol.
+
+[*]Favored Great People: Great Musician, Great Prophet.
+
+[*]Unique Agenda ---- Sing with me... As school idols!: Focus on Culture. Like civilizations that also focus on Culture with many Great People.
+[/list]
+
+[b]Other Content[/b]
+
+[list]
+[*]Start location with high probability adjacent Cocoa Resources.[noparse][Note4][/noparse]
+[/list]
+
+[h1]Note[/h1]
+[olist]
+[*]This might fewer the turns you need to complete the technology than the Technology Tree shows.
+
+[*]This function is made by Lua scripts. There might be some issues when you are playing online since online players' network and computers might be different. But this would not affect the ability to function normally.
+
+[*]"Liella!'s Album" is a newly added Great People. Each Liella!'s Album would grant a great work of music (from Liella!). It provides 4 Culture and 4 Tourism and can only be granted by Liella!'s unique ability or its unique unit: School Idol. But if your opponent is rich enough, he could also buy it. (Seriously, why would anyone spend more than a Millian Belief or Gold on just ONE great work of music?)
+
+[*]But it would not work on all the maps. We assume the reason might be lack of cocoa beans in that map.
+[/olist]
+
+[h1]End of all the BS. Anyway, we hope you enjoy this mod. Have fun!![/h1]
